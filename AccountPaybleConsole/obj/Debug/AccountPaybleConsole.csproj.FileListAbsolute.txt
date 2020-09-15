@@ -1,0 +1,148 @@
+E:\GPIL\OnGoing\GPILProjects\AccountPaybleConsole\bin\Debug\AccountPaybleConsole.exe.config
+E:\GPIL\OnGoing\GPILProjects\AccountPaybleConsole\bin\Debug\AccountPaybleConsole.exe
+E:\GPIL\OnGoing\GPILProjects\AccountPaybleConsole\bin\Debug\AccountPaybleConsole.pdb
+E:\GPIL\OnGoing\GPILProjects\AccountPaybleConsole\bin\Debug\NLog.dll
+E:\GPIL\OnGoing\GPILProjects\AccountPaybleConsole\bin\Debug\EntityFramework.dll
+E:\GPIL\OnGoing\GPILProjects\AccountPaybleConsole\bin\Debug\Oracle.ManagedDataAccess.dll
+E:\GPIL\OnGoing\GPILProjects\AccountPaybleConsole\bin\Debug\DataAccessLayer.pdb
+E:\GPIL\OnGoing\GPILProjects\AccountPaybleConsole\bin\Debug\DataAccessLayer.dll.config
+E:\GPIL\OnGoing\GPILProjects\AccountPaybleConsole\bin\Debug\NLog.xml
+E:\GPIL\OnGoing\GPILProjects\AccountPaybleConsole\bin\Debug\EntityFramework.xml
+E:\GPIL\OnGoing\GPILProjects\AccountPaybleConsole\obj\Debug\AccountPaybleConsole.csproj.CopyComplete
+E:\GPIL\OnGoing\GPILProjects\AccountPaybleConsole\obj\Debug\AccountPaybleConsole.exe
+E:\GPIL\OnGoing\GPILProjects\AccountPaybleConsole\obj\Debug\AccountPaybleConsole.pdb
+E:\GPIL\OnGoing\GPILProjects\AccountPaybleConsole\bin\Debug\Common.dll
+E:\GPIL\OnGoing\GPILProjects\AccountPaybleConsole\bin\Debug\itextsharp.dll
+E:\GPIL\OnGoing\GPILProjects\AccountPaybleConsole\bin\Debug\Newtonsoft.Json.dll
+E:\GPIL\OnGoing\GPILProjects\AccountPaybleConsole\bin\Debug\ActiveUp.Net.Common.dll
+E:\GPIL\OnGoing\GPILProjects\AccountPaybleConsole\bin\Debug\ActiveUp.Net.Imap4.dll
+E:\GPIL\OnGoing\GPILProjects\AccountPaybleConsole\bin\Debug\ActiveUp.Net.Dns.dll
+E:\GPIL\OnGoing\GPILProjects\AccountPaybleConsole\bin\Debug\AccountPaybleProcessor.pdb
+E:\GPIL\OnGoing\GPILProjects\AccountPaybleConsole\bin\Debug\AccountPaybleProcessor.dll.config
+E:\GPIL\OnGoing\GPILProjects\AccountPaybleConsole\bin\Debug\Common.pdb
+E:\GPIL\OnGoing\GPILProjects\AccountPaybleConsole\bin\Debug\Common.dll.config
+E:\GPIL\OnGoing\GPILProjects\AccountPaybleConsole\bin\Debug\itextsharp.xml
+E:\GPIL\OnGoing\GPILProjects\AccountPaybleConsole\bin\Debug\Newtonsoft.Json.xml
+E:\GPIL\OnGoing\GPILProjects\AccountPaybleConsole\bin\Debug\ActiveUp.Net.Common.xml
+E:\GPIL\OnGoing\GPILProjects\AccountPaybleConsole\bin\Debug\ActiveUp.Net.Imap4.xml
+E:\GPIL\OnGoing\GPILProjects\AccountPaybleConsole\bin\Debug\ActiveUp.Net.Dns.xml
+E:\GPIL\OnGoing\GPILProjects\AccountPaybleConsole\obj\Debug\AccountPaybleConsole.exe.config
+E:\GPIL\OnGoing\GPILProjects\AccountPaybleConsole\bin\Debug\DataAccessLayer.dll
+E:\GPIL\OnGoing\GPILProjects\AccountPaybleConsole\bin\Debug\EntityFramework.SqlServer.dll
+E:\GPIL\OnGoing\GPILProjects\AccountPaybleConsole\bin\Debug\EntityFramework.SqlServer.xml
+E:\GPIL\OnGoing\GPILProjects\AccountPaybleConsole\bin\Debug\AccountPaybleProcessor.dll
+E:\GPIL\OnGoing\GPILProjects\AccountPaybleConsole\obj\Debug\AccountPaybleConsole.csprojAssemblyReference.cache
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\AccountPaybleConsole.exe.config
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\AccountPaybleConsole.exe
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\AccountPaybleConsole.pdb
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\DataAccessLayer.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\EntityFramework.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\NLog.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\Common.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\itextsharp.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\ActiveUp.Net.Imap4.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\ActiveUp.Net.Common.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\Newtonsoft.Json.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\ActiveUp.Net.Dns.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\AccountPaybleProcessor.pdb
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\AccountPaybleProcessor.dll.config
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\DataAccessLayer.pdb
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\DataAccessLayer.dll.config
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\EntityFramework.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\NLog.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\Common.pdb
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\Common.dll.config
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\itextsharp.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\ActiveUp.Net.Imap4.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\ActiveUp.Net.Common.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\Newtonsoft.Json.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\ActiveUp.Net.Dns.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\AccountPaybleConsole\obj\Debug\AccountPaybleConsole.exe.config
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\AccountPaybleConsole\obj\Debug\AccountPaybleConsole.csproj.CoreCompileInputs.cache
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\AccountPaybleConsole\obj\Debug\AccountPaybleConsole.csproj.CopyComplete
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\AccountPaybleConsole\obj\Debug\AccountPaybleConsole.exe
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\AccountPaybleConsole\obj\Debug\AccountPaybleConsole.pdb
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\AccountPaybleProcessor.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\APLineItemDataLayer.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\APLineItemDataLayer.pdb
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\APLineItemDataLayer.dll.config
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\AccountPaybleConsole.exe.config
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\AccountPaybleConsole.exe
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\AccountPaybleConsole.pdb
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\AccountPaybleProcessor.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\DataAccessLayer.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\EntityFramework.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\NLog.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\Common.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\ActiveUp.Net.Imap4.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\ActiveUp.Net.Common.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\APLineItemDataLayer.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\itextsharp.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\Newtonsoft.Json.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\ActiveUp.Net.Dns.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\AccountPaybleProcessor.pdb
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\AccountPaybleProcessor.dll.config
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\DataAccessLayer.pdb
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\DataAccessLayer.dll.config
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\EntityFramework.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\NLog.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\Common.pdb
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\Common.dll.config
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\ActiveUp.Net.Imap4.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\ActiveUp.Net.Common.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\APLineItemDataLayer.pdb
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\APLineItemDataLayer.dll.config
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\itextsharp.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\Newtonsoft.Json.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\AccountPaybleConsole\bin\Debug\ActiveUp.Net.Dns.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\AccountPaybleConsole\obj\Debug\AccountPaybleConsole.csprojAssemblyReference.cache
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\AccountPaybleConsole\obj\Debug\AccountPaybleConsole.exe.config
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\AccountPaybleConsole\obj\Debug\AccountPaybleConsole.csproj.CoreCompileInputs.cache
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\AccountPaybleConsole\obj\Debug\AccountPaybleConsole.csproj.CopyComplete
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\AccountPaybleConsole\obj\Debug\AccountPaybleConsole.exe
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\AccountPaybleConsole\obj\Debug\AccountPaybleConsole.pdb
+C:\Users\rpa\Desktop\Ongoing\GPILProjects\GPILProjects\AccountPaybleConsole\obj\Debug\AccountPaybleConsole.csprojAssemblyReference.cache
+D:\AP Project\AccountPaybleConsole\bin\Debug\AccountPaybleConsole.exe.config
+D:\AP Project\AccountPaybleConsole\bin\Debug\AccountPaybleConsole.exe
+D:\AP Project\AccountPaybleConsole\bin\Debug\AccountPaybleConsole.pdb
+D:\AP Project\AccountPaybleConsole\bin\Debug\AccountPaybleProcessor.dll
+D:\AP Project\AccountPaybleConsole\bin\Debug\DataAccessLayer.dll
+D:\AP Project\AccountPaybleConsole\bin\Debug\EntityFramework.dll
+D:\AP Project\AccountPaybleConsole\bin\Debug\EntityFramework.SqlServer.dll
+D:\AP Project\AccountPaybleConsole\bin\Debug\NLog.dll
+D:\AP Project\AccountPaybleConsole\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\AP Project\AccountPaybleConsole\bin\Debug\Common.dll
+D:\AP Project\AccountPaybleConsole\bin\Debug\ActiveUp.Net.Imap4.dll
+D:\AP Project\AccountPaybleConsole\bin\Debug\ActiveUp.Net.Common.dll
+D:\AP Project\AccountPaybleConsole\bin\Debug\APLineItemDataLayer.dll
+D:\AP Project\AccountPaybleConsole\bin\Debug\itextsharp.dll
+D:\AP Project\AccountPaybleConsole\bin\Debug\Newtonsoft.Json.dll
+D:\AP Project\AccountPaybleConsole\bin\Debug\ActiveUp.Net.Dns.dll
+D:\AP Project\AccountPaybleConsole\bin\Debug\AccountPaybleProcessor.pdb
+D:\AP Project\AccountPaybleConsole\bin\Debug\AccountPaybleProcessor.dll.config
+D:\AP Project\AccountPaybleConsole\bin\Debug\DataAccessLayer.pdb
+D:\AP Project\AccountPaybleConsole\bin\Debug\DataAccessLayer.dll.config
+D:\AP Project\AccountPaybleConsole\bin\Debug\EntityFramework.xml
+D:\AP Project\AccountPaybleConsole\bin\Debug\EntityFramework.SqlServer.xml
+D:\AP Project\AccountPaybleConsole\bin\Debug\NLog.xml
+D:\AP Project\AccountPaybleConsole\bin\Debug\Common.pdb
+D:\AP Project\AccountPaybleConsole\bin\Debug\Common.dll.config
+D:\AP Project\AccountPaybleConsole\bin\Debug\ActiveUp.Net.Imap4.xml
+D:\AP Project\AccountPaybleConsole\bin\Debug\ActiveUp.Net.Common.xml
+D:\AP Project\AccountPaybleConsole\bin\Debug\APLineItemDataLayer.pdb
+D:\AP Project\AccountPaybleConsole\bin\Debug\APLineItemDataLayer.dll.config
+D:\AP Project\AccountPaybleConsole\bin\Debug\itextsharp.xml
+D:\AP Project\AccountPaybleConsole\bin\Debug\Newtonsoft.Json.xml
+D:\AP Project\AccountPaybleConsole\bin\Debug\ActiveUp.Net.Dns.xml
+D:\AP Project\AccountPaybleConsole\obj\Debug\AccountPaybleConsole.csprojAssemblyReference.cache
+D:\AP Project\AccountPaybleConsole\obj\Debug\AccountPaybleConsole.exe.config
+D:\AP Project\AccountPaybleConsole\obj\Debug\AccountPaybleConsole.csproj.CoreCompileInputs.cache
+D:\AP Project\AccountPaybleConsole\obj\Debug\AccountPaybleConsole.csproj.CopyComplete
+D:\AP Project\AccountPaybleConsole\obj\Debug\AccountPaybleConsole.exe
+D:\AP Project\AccountPaybleConsole\obj\Debug\AccountPaybleConsole.pdb

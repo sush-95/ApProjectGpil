@@ -1,0 +1,100 @@
+﻿@{
+    var jsonmodel = new AccountPaybleWeb.Manager.ViewModelClass.JsonViewModel();
+}
+<form>
+
+
+    <table id="example1" class="table-bordered table table-striped table-condensed tblx" style="text-align:center">
+        <thead>
+            <tr>
+                <th>Invoice Number</th>
+                <th>Invoice Date</th>
+                <th>PO Number</th>
+                <th>Vendor Name</th>
+                <th>Vendor Site</th>
+                <th>Vendor GST NO</th>
+                <th>GPI GST NO</th>
+                <th>Invoice Amount</th>
+                <th>Invoice Status</th>
+                <th>Payment Reference</th>
+                <th>View Invoice</th>
+                <th>Reject Invoice</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @if (ViewBag.polist != null)
+            {
+                foreach (var item in (List<AccountPaybleWeb.Models.Tbl_AP_PODetail>)ViewBag.polist)
+                {
+                    {
+                        jsonmodel = Newtonsoft.Json.JsonConvert.DeserializeObject<AccountPaybleWeb.Manager.ViewModelClass.JsonViewModel>(item.MetaData);
+                    }
+                    <tr>
+                        <td><a href="#" data-toggle="modal" data-target="#myModal" onclick="getPdfDetail(@item.MetaData)">@item.InvoiceNo</a> </td>
+                        <td>@Convert.ToDateTime(item.InvoiceDate).ToString("dd-MMM-yyyy")</td>
+                        <td>@item.PONumber</td>
+                        <td>@item.VendorName</td>
+                        <td>@item.VedorSite</td>
+                        <td>@item.VendorGstNO</td>
+                        <td>@item.GPIGstNO</td>
+                        <td>@item.InvoiceAmount</td>
+                        <td>
+                            @if (item.InvoiceStatus.Equals(AccountPaybleWeb.Manager.Constants.PODetailInvoiceStatus.Extracted) || item.InvoiceStatus.Equals(AccountPaybleWeb.Manager.Constants.PODetailInvoiceStatus.Error))
+                            {
+                                <b style="color:#ef9c18">Error</b>
+                            }
+                            else if (item.InvoiceStatus.Equals(AccountPaybleWeb.Manager.Constants.PODetailInvoiceStatus.Rejected))
+                            {
+                                <b style="color:red">Rejected</b>
+                            }
+                            else if (item.InvoiceStatus.Equals(AccountPaybleWeb.Manager.Constants.PODetailInvoiceStatus.Approved))
+                            {
+                                <b style="color:green">Processed</b>
+                            }
+                            else if (item.InvoiceStatus.Equals(AccountPaybleWeb.Manager.Constants.PODetailInvoiceStatus.PendingForApproval))
+                            {
+                                <b style="color:#62fb05">Pending For Approval</b>
+                            }
+
+                        </td>
+                        <td>@item.PaymentReference</td>
+                        <td>
+                            <a href="/AP/DowloadInvoice?path=@jsonmodel.Detail.NewInvoicepath" target="_blank" class="btn btn-default btn sm"><span><i class="glyphicon glyphicon-download-alt"></i></span></a>
+                        </td>
+                        <td>
+                            @if (item.InvoiceStatus.Equals(AccountPaybleWeb.Manager.Constants.PODetailInvoiceStatus.Rejected) || item.InvoiceStatus.Equals(AccountPaybleWeb.Manager.Constants.PODetailInvoiceStatus.Approved))
+                            {
+                               <span  class="btn btn-default btn sm" style="color:#a02323"><i class="glyphicon glyphicon-remove"></i></span>
+                            }
+                            else
+                            {
+                                <a href="/AP/RejectInvoice?ID=@item.InvoiceID" class="btn btn-default btn sm" onclick="confirmReject()" style="color:#a02323"><span><i class="glyphicon glyphicon-remove"></i></span></a>
+                            }
+
+                        </td>
+                    </tr>
+                }
+
+
+            }
+            else
+            {
+                <tr>
+                    <td>No data in the table.</td>
+                </tr>
+            }
+
+        </tbody>
+
+    </table>
+</form>
+<script>
+    function confirmReject() {
+        if (confirm('Are you sure? you want to reject the Invoce.')) {
+
+        } else {
+            event.preventDefault();
+        }
+    }
+</script>

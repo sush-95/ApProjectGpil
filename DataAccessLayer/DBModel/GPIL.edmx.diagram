@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="aa0da6cb0ca34dc0aa496f7d65d18fce" Name="Diagram1" ZoomLevel="88">
+        <EntityTypeShape EntityType="GPILModel.TBL_Processes" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="GPILModel.TBL_ProcessInstanceDetails" Width="1.5" PointX="5" PointY="0.875" IsExpanded="false" />
+        <EntityTypeShape EntityType="GPILModel.TBL_ProcessInstances" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="GPILModel.TBL_States" Width="1.5" PointX="2.75" PointY="1.125" IsExpanded="false" />
+        <AssociationConnector Association="GPILModel.FK_TBL_ProcessInstanceDetails_TBL_States" ManuallyRouted="false" />
+        <AssociationConnector Association="GPILModel.FK_ProcessInstances_ProcessInstances" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="GPILModel.TBL_AirlineGSTConfig" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="GPILModel.TBL_Frequency" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="GPILModel.TBL_BotInfo" Width="1.5" PointX="3.375" PointY="8.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="GPILModel.TBL_BotProcessAssigment" Width="1.5" PointX="9.375" PointY="6.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="GPILModel.TBL_Process_Frequency" Width="1.5" PointX="7.375" PointY="2.75" />
+        <EntityTypeShape EntityType="GPILModel.TBL_MessageTracker" Width="1.5" PointX="3.375" PointY="2.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="GPILModel.TBL_ProcessInstanceData" Width="1.5" PointX="7.375" PointY="8.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="GPILModel.TBL_ProcessInstanceError" Width="1.5" PointX="9.75" PointY="2.75" />
+        <EntityTypeShape EntityType="GPILModel.TBL_InvoiceDetail" Width="1.5" PointX="3.375" PointY="4.75" />
+        <EntityTypeShape EntityType="GPILModel.TBL_UserLogin" Width="1.5" PointX="5.375" PointY="5.75" />
+        <EntityTypeShape EntityType="GPILModel.TBL_ProcessExecution_Settings" Width="1.5" PointX="0.75" PointY="9.75" />
+        <EntityTypeShape EntityType="GPILModel.TBL_EmailTracker" Width="1.5" PointX="9.375" PointY="8.75" />
+        <EntityTypeShape EntityType="GPILModel.TBL_ExcelRules" Width="1.5" PointX="3.375" PointY="10.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

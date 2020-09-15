@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GPILModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="TBL_Processes">
+    <Key>
+      <PropertyRef Name="ProcessId" />
+    </Key>
+    <Property Name="ProcessId" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ProcessDescription" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="IsActive" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="TBL_ProcessInstanceDetails">
+    <Key>
+      <PropertyRef Name="ProcessInstanceId" />
+      <PropertyRef Name="SequenceId" />
+    </Key>
+    <Property Name="ProcessInstanceId" Type="Int64" Nullable="false" />
+    <Property Name="SequenceId" Type="Int32" Nullable="false" />
+    <Property Name="StateId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IsCompleted" Type="Boolean" />
+    <Property Name="CreateTS" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="TBL_States" Relationship="Self.FK_TBL_ProcessInstanceDetails_TBL_States" FromRole="TBL_ProcessInstanceDetails" ToRole="TBL_States" />
+  </EntityType>
+  <EntityType Name="TBL_ProcessInstances">
+    <Key>
+      <PropertyRef Name="ProcessInstanceId" />
+    </Key>
+    <Property Name="ProcessInstanceId" Type="Int64" Nullable="false" />
+    <Property Name="ProcessId" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CreatedTS" Type="DateTime" Precision="3" />
+    <Property Name="ParentProcessInstanceId" Type="Int64" />
+    <Property Name="IsCompleted" Type="Boolean" />
+    <Property Name="AllocatedServer" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="AllocatedTS" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="TBL_ProcessInstances1" Relationship="Self.FK_ProcessInstances_ProcessInstances" FromRole="TBL_ProcessInstances" ToRole="TBL_ProcessInstances1" />
+    <NavigationProperty Name="TBL_ProcessInstances2" Relationship="Self.FK_ProcessInstances_ProcessInstances" FromRole="TBL_ProcessInstances1" ToRole="TBL_ProcessInstances" />
+  </EntityType>
+  <EntityType Name="TBL_States">
+    <Key>
+      <PropertyRef Name="StateId" />
+    </Key>
+    <Property Name="StateId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="StateDescription" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="IsActive" Type="Boolean" />
+    <NavigationProperty Name="TBL_ProcessInstanceDetails" Relationship="Self.FK_TBL_ProcessInstanceDetails_TBL_States" FromRole="TBL_States" ToRole="TBL_ProcessInstanceDetails" />
+  </EntityType>
+  <Association Name="FK_TBL_ProcessInstanceDetails_TBL_States">
+    <End Role="TBL_States" Type="Self.TBL_States" Multiplicity="0..1" />
+    <End Role="TBL_ProcessInstanceDetails" Type="Self.TBL_ProcessInstanceDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TBL_States">
+        <PropertyRef Name="StateId" />
+      </Principal>
+      <Dependent Role="TBL_ProcessInstanceDetails">
+        <PropertyRef Name="StateId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProcessInstances_ProcessInstances">
+    <End Role="TBL_ProcessInstances" Type="Self.TBL_ProcessInstances" Multiplicity="0..1" />
+    <End Role="TBL_ProcessInstances1" Type="Self.TBL_ProcessInstances" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TBL_ProcessInstances">
+        <PropertyRef Name="ProcessInstanceId" />
+      </Principal>
+      <Dependent Role="TBL_ProcessInstances1">
+        <PropertyRef Name="ParentProcessInstanceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="GPILEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="TBL_Processes" EntityType="Self.TBL_Processes" />
+    <EntitySet Name="TBL_ProcessInstanceDetails" EntityType="Self.TBL_ProcessInstanceDetails" />
+    <EntitySet Name="TBL_ProcessInstances" EntityType="Self.TBL_ProcessInstances" />
+    <EntitySet Name="TBL_States" EntityType="Self.TBL_States" />
+    <AssociationSet Name="FK_TBL_ProcessInstanceDetails_TBL_States" Association="Self.FK_TBL_ProcessInstanceDetails_TBL_States">
+      <End Role="TBL_States" EntitySet="TBL_States" />
+      <End Role="TBL_ProcessInstanceDetails" EntitySet="TBL_ProcessInstanceDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProcessInstances_ProcessInstances" Association="Self.FK_ProcessInstances_ProcessInstances">
+      <End Role="TBL_ProcessInstances" EntitySet="TBL_ProcessInstances" />
+      <End Role="TBL_ProcessInstances1" EntitySet="TBL_ProcessInstances" />
+    </AssociationSet>
+    <FunctionImport Name="USP_Insert_ProcessInstance" ReturnType="Collection(Int64)">
+      <Parameter Name="ProcessId" Mode="In" Type="String" />
+      <Parameter Name="ParentProcessInstanceID" Mode="In" Type="Int64" />
+    </FunctionImport>
+    <EntitySet Name="TBL_AirlineGSTConfig" EntityType="GPILModel.TBL_AirlineGSTConfig" />
+    <EntitySet Name="TBL_Frequency" EntityType="GPILModel.TBL_Frequency" />
+    <EntitySet Name="TBL_BotInfo" EntityType="GPILModel.TBL_BotInfo" />
+    <EntitySet Name="TBL_BotProcessAssigment" EntityType="GPILModel.TBL_BotProcessAssigment" />
+    <EntitySet Name="TBL_Process_Frequency" EntityType="GPILModel.TBL_Process_Frequency" />
+    <EntitySet Name="TBL_MessageTracker" EntityType="GPILModel.TBL_MessageTracker" />
+    <EntitySet Name="TBL_ProcessInstanceData" EntityType="GPILModel.TBL_ProcessInstanceData" />
+    <FunctionImport Name="USP_AllocateInstance" EntitySet="TBL_ProcessInstances" ReturnType="Collection(GPILModel.TBL_ProcessInstances)">
+      <Parameter Name="ServerName" Mode="In" Type="String" />
+      <Parameter Name="ProcessID" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="USP_CleanInstance">
+      <Parameter Name="ProcessInstanceID" Mode="In" Type="Int64" />
+    </FunctionImport>
+    <EntitySet Name="TBL_ProcessInstanceError" EntityType="GPILModel.TBL_ProcessInstanceError" />
+    <EntitySet Name="TBL_InvoiceDetail" EntityType="GPILModel.TBL_InvoiceDetail" />
+    <EntitySet Name="TBL_UserLogin" EntityType="GPILModel.TBL_UserLogin" />
+    <FunctionImport Name="USP_GetInvoiceByDownloadDate" ReturnType="Collection(GPILModel.USP_GetInvoiceByDownloadDate_Result)">
+      <Parameter Name="startDate" Mode="In" Type="DateTime" />
+      <Parameter Name="endDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ProcessId" Mode="In" Type="String" />
+      <Parameter Name="PageIndex" Mode="In" Type="Int32" />
+      <Parameter Name="PageSize" Mode="In" Type="Int32" />
+      <Parameter Name="RecordCount" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="USP_GetDownloadDateExportReport" ReturnType="Collection(GPILModel.USP_GetDownloadDateExportReport_Result)">
+      <Parameter Name="startDate" Mode="In" Type="DateTime" />
+      <Parameter Name="endDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ProcessId" Mode="In" Type="String" />
+      <Parameter Name="FilterType" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="USP_GetInvoiceByDate_New" ReturnType="Collection(GPILModel.USP_GetInvoiceByDate_New_Result)">
+      <Parameter Name="startDate" Mode="In" Type="DateTime" />
+      <Parameter Name="endDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ProcessId" Mode="In" Type="String" />
+      <Parameter Name="PageIndex" Mode="In" Type="Int32" />
+      <Parameter Name="PageSize" Mode="In" Type="Int32" />
+      <Parameter Name="FilterType" Mode="In" Type="String" />
+      <Parameter Name="RecordCount" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="USP_GetInvoiceByDownloadDate_New" ReturnType="Collection(GPILModel.USP_GetInvoiceByDownloadDate_New_Result)">
+      <Parameter Name="startDate" Mode="In" Type="DateTime" />
+      <Parameter Name="endDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ProcessId" Mode="In" Type="String" />
+      <Parameter Name="PageIndex" Mode="In" Type="Int32" />
+      <Parameter Name="PageSize" Mode="In" Type="Int32" />
+      <Parameter Name="FilterType" Mode="In" Type="String" />
+      <Parameter Name="RecordCount" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="USP_GetInvoiceDateExportReport" ReturnType="Collection(GPILModel.USP_GetInvoiceDateExportReport_Result)">
+      <Parameter Name="startDate" Mode="In" Type="DateTime" />
+      <Parameter Name="endDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ProcessId" Mode="In" Type="String" />
+      <Parameter Name="FilterType" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="USP_CleanAllLockdedInstance">
+      <Parameter Name="ProcessID" Mode="In" Type="String" />
+    </FunctionImport>
+    <EntitySet Name="TBL_ProcessExecution_Settings" EntityType="GPILModel.TBL_ProcessExecution_Settings" />
+    <EntitySet Name="TBL_EmailTracker" EntityType="GPILModel.TBL_EmailTracker" />
+    <EntitySet Name="TBL_ExcelRules" EntityType="GPILModel.TBL_ExcelRules" />
+  </EntityContainer>
+  <ComplexType Name="USP_AllocateInstance_Result">
+    <Property Type="Int64" Name="ProcessInstanceId" Nullable="false" />
+    <Property Type="String" Name="ProcessId" Nullable="true" MaxLength="100" />
+    <Property Type="DateTime" Name="CreatedTS" Nullable="true" Precision="23" />
+    <Property Type="Int64" Name="ParentProcessInstanceId" Nullable="true" />
+    <Property Type="Boolean" Name="IsCompleted" Nullable="true" />
+    <Property Type="String" Name="AllocatedServer" Nullable="true" MaxLength="200" />
+    <Property Type="DateTime" Name="AllocatedTS" Nullable="true" Precision="23" />
+  </ComplexType>
+  <EntityType Name="TBL_AirlineGSTConfig">
+    <Key>
+      <PropertyRef Name="ProcessId" />
+      <PropertyRef Name="ConfigKey" />
+    </Key>
+    <Property Name="ProcessId" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ConfigKey" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ConfigValue" Type="String" Nullable="false" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="TBL_Frequency">
+    <Key>
+      <PropertyRef Name="FrequencyId" />
+    </Key>
+    <Property Name="FrequencyId" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="IsActive" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="TBL_BotInfo">
+    <Key>
+      <PropertyRef Name="BotId" />
+    </Key>
+    <Property Name="BotId" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ResponseQueueName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="RequestQueueName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="MachineName" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="MaxBotQueue" Type="Int32" />
+    <Property Name="CreatedTS" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedTS" Type="DateTime" Precision="3" />
+    <Property Name="IsActive" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="TBL_BotProcessAssigment">
+    <Key>
+      <PropertyRef Name="BotId" />
+      <PropertyRef Name="ProcessId" />
+    </Key>
+    <Property Name="BotId" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ProcessId" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="TBL_Process_Frequency">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProcessId" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="FrequenceId" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="TBL_MessageTracker">
+    <Key>
+      <PropertyRef Name="MessageID" />
+    </Key>
+    <Property Name="MessageID" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="RetrySequence" Type="Int32" />
+    <Property Name="Status" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="RequestJsonData" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ResponseJsonData" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="StartTime" Type="DateTime" Precision="3" />
+    <Property Name="EndTime" Type="DateTime" Precision="3" />
+    <Property Name="BotID" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="ProcessInstanceID" Type="Int64" Nullable="false" />
+    <Property Name="Sequence" Type="Int32" Nullable="false" />
+    <Property Name="IncrementTimeout" Type="Int32" />
+  </EntityType>
+  <EntityType Name="TBL_ProcessInstanceData">
+    <Key>
+      <PropertyRef Name="ProcessInstanceId" />
+      <PropertyRef Name="SequenceId" />
+      <PropertyRef Name="MetaDataSequenceId" />
+    </Key>
+    <Property Name="ProcessInstanceId" Type="Int64" Nullable="false" />
+    <Property Name="SequenceId" Type="Int32" Nullable="false" />
+    <Property Name="MetaData" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="MetaDataSequenceId" Type="Int32" Nullable="false" />
+    <Property Name="CreatedTS" Type="DateTime" Precision="3" />
+    <Property Name="IsProcessed" Type="Boolean" />
+    <Property Name="IsFinal" Type="Boolean" />
+    <Property Name="ChildInstanceId" Type="Int64" />
+    <Property Name="MessageId" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ErrorMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="TBL_ProcessInstanceError">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="ProcessInstanceId" Type="Int64" />
+    <Property Name="StateId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MetaData" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="CreateTS" Type="DateTime" Precision="3" />
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="TBL_InvoiceDetail">
+    <Key>
+      <PropertyRef Name="InvoiceNumber" />
+    </Key>
+    <Property Name="AirlineGSTNumber" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="InvoiceNumber" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="InvoiceDate" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ProcessInstanceId" Type="Int64" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TBL_UserLogin">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserID" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CreateDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <ComplexType Name="USP_GetInvoiceByDownloadDate_Result">
+    <Property Type="Boolean" Name="IsCompleted" Nullable="true" />
+    <Property Type="String" Name="ProcessId" Nullable="true" MaxLength="100" />
+    <Property Type="DateTime" Name="CreatedTS" Nullable="true" Precision="23" />
+    <Property Type="Int64" Name="ProcessInstanceId" Nullable="false" />
+    <Property Type="Int64" Name="ParentProcessInstanceId" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="USP_GetDownloadDateExportReport_Result">
+    <Property Type="Int32" Name="RowNumber" Nullable="true" />
+    <Property Type="Int64" Name="ProcessInstanceId" Nullable="true" />
+    <Property Type="DateTime" Name="CreatedTS" Nullable="true" Precision="23" />
+    <Property Type="Boolean" Name="IsCompleted" Nullable="true" />
+    <Property Type="String" Name="ProcessId" Nullable="true" MaxLength="100" />
+    <Property Type="Int64" Name="ParentProcessInstanceId" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="USP_GetInvoiceByDate_New_Result">
+    <Property Type="Int32" Name="RowNumber" Nullable="true" />
+    <Property Type="Int64" Name="ProcessInstanceId" Nullable="true" />
+    <Property Type="DateTime" Name="CreatedTS" Nullable="true" Precision="23" />
+    <Property Type="Boolean" Name="IsCompleted" Nullable="true" />
+    <Property Type="String" Name="ProcessId" Nullable="true" MaxLength="100" />
+    <Property Type="Int64" Name="ParentProcessInstanceId" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="USP_GetInvoiceByDownloadDate_New_Result">
+    <Property Type="Int32" Name="RowNumber" Nullable="true" />
+    <Property Type="Int64" Name="ProcessInstanceId" Nullable="true" />
+    <Property Type="DateTime" Name="CreatedTS" Nullable="true" Precision="23" />
+    <Property Type="Boolean" Name="IsCompleted" Nullable="true" />
+    <Property Type="String" Name="ProcessId" Nullable="true" MaxLength="100" />
+    <Property Type="Int64" Name="ParentProcessInstanceId" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="USP_GetInvoiceDateExportReport_Result">
+    <Property Type="Int32" Name="RowNumber" Nullable="true" />
+    <Property Type="Int64" Name="ProcessInstanceId" Nullable="true" />
+    <Property Type="DateTime" Name="CreatedTS" Nullable="true" Precision="23" />
+    <Property Type="Boolean" Name="IsCompleted" Nullable="true" />
+    <Property Type="String" Name="ProcessId" Nullable="true" MaxLength="100" />
+    <Property Type="Int64" Name="ParentProcessInstanceId" Nullable="true" />
+  </ComplexType>
+  <EntityType Name="TBL_ProcessExecution_Settings">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="ProcessId" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="StartDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="EndData" Type="DateTime" Precision="3" />
+    <Property Name="IsComplete" Type="Boolean" />
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProcessInstanceId" Type="Int64" />
+    <Property Name="RequestDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="TBL_EmailTracker">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ToEmailId" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SentDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="GstNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="TBL_ExcelRules">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RuleName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+  </EntityType>
+</Schema>

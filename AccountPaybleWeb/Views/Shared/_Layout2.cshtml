@@ -1,0 +1,139 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .msgBar {
+            position: relative;
+            left: -159%;
+            width: 400px;
+            font-family: monospace;
+            font-size: 17px;
+        }
+
+        html, body {
+            margin: 0;
+            height: 100%;
+        }
+
+        body {
+            box-sizing: border-box;
+        }
+
+        .navg {
+            /*background: rgb(131,58,180);
+            background: linear-gradient(90deg, rgba(131,58,180,1) 1%, rgba(67,169,226,0.938813025210084) 6%, rgba(29,210,253,0.6839110644257703) 32%, rgba(48,170,238,0.036852240896358524) 82%);*/
+        }
+
+        .nav-link {
+            color: #5b497d;
+            font-family: fantasy;
+            font-size: 22px;
+        }
+
+        .firstheader {           
+            background-color: #403e44;
+            color: #fbf2e2;
+            font-family: none;
+            height: 57px;
+        }
+
+            .firstheader h3 {
+                margin: 6px;
+            }
+    </style>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title ::GPIL</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="~/Scripts/dt/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <link href="~/Content/jquery-ui.min.css" rel="stylesheet" />
+</head>
+<body style="overflow-x: hidden;">
+    @{
+        //var user = ((AccountPaybleWeb.Manager.ViewModelClass.LoginModel)Session["User"]);
+    }
+    <div class="row" style="margin-top: -75px;">
+        <div class="col-md-2">
+            <img style="position: relative;top: 21px;" src="~/images/bg.jpg" width="135px;" height="100px;" />
+        </div>
+        <div class="col-md-6">
+
+
+        </div>
+        <div class="col-md-2">
+            @*<b style="color:black;position: relative;top: 42px;">User</b>*@
+            <h3 style="position:relative; top:48px;left:85%;color:#3bb19b;font-family: initial">User</h3>
+        </div>
+        <div class="col-md-2">
+
+            <ul class="nav navbar-nav navbar-right" style="color:black;margin-top:56px;margin-right:0px;">
+                <li>
+                    <a href='@Url.Action("Logout", "LogIn")'>
+                        <img src='@Url.Content("~/images/Logout.png")' />&nbsp; Logout
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+
+
+        <div class="col-md-12">
+            @RenderBody()
+
+        </div>
+    </div>
+    <div class="container body-content">
+
+        <hr />
+        <footer>
+            <p><center>&copy; @DateTime.Now.Year - Grid Infocom Pvt. Ltd.</center></p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+<script src="~/Scripts/jquery-3.3.1.js"></script>
+<script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>
+<script src="~/Scripts/dt/js/jquery.dataTables.min.js"></script>
+<script>
+    $(document).ready(function () {
+        debugger
+        $("#lblmsg").hide(5000)
+        var table = $('#example').DataTable();
+
+        $('#example tbody').on('click', 'tr', function () {
+            var data = table.row(this).data();
+            // alert('You clicked on ' + data[0] + '\'s row');
+        });
+        var table1 = $('#example1').DataTable();
+
+        $('#example1 tbody').on('click', 'tr', function () {
+            var data = table1.row(this).data();
+            // alert('You clicked on ' + data[0] + '\'s row');
+        });
+        var table2 = $('#example2').DataTable();
+
+        $('#example2 tbody').on('click', 'tr', function () {
+            var data = table2.row(this).data();
+            // alert('You clicked on ' + data[0] + '\'s row');
+        });
+
+        $(".invoice").datepicker(
+            {
+                dateFormat: 'dd-M-yy',
+                timepicker: false,
+
+            }
+        );
+        //$(".msgBar").hide(5000);
+        //$("#lblmsg").hide(2000)
+    });
+</script>

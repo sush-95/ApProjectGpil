@@ -1,0 +1,206 @@
+﻿@using Newtonsoft.Json;
+@using AccountPaybleWeb.Manager
+
+@{ 
+    ViewModelClass.ErrorModel error=new ViewModelClass.ErrorModel();
+}
+<form action="/AP/ApproveResolveError" method="post">
+    @if (ViewBag.SearchDetail != null)
+    {
+        var smodel = (AccountPaybleWeb.Manager.ViewModelClass.SearchViewModel)ViewBag.SearchDetail;
+        <input type="hidden" name="search" value="@Newtonsoft.Json.JsonConvert.SerializeObject(smodel)" />
+    }
+    <input type="hidden" id="hid" name="itemids" />
+    <input type="submit" class="btn btn-default" value="Submit" onclick="ConfirmApprove('You want to submit this Error.Are you sure?')" style="position:relative;right:-94%;background-color:#456439;color:white" />
+    <table id="example" class="table-bordered table table-striped table-condensed tblx" style="text-align:center">
+        <thead>
+            <tr>
+                <th>@*<input type="checkbox" name="all" />*@</th>
+                <th>Vendor Name</th>
+                <th>Invoice No/Date</th>
+                <th>Invoice Line No</th>
+                <th style="width:205px">Invoice Line Details</th>
+                <th>PO NO</th>
+                <th>Line Location ID</th>
+                <th>Receipt Number</th>
+                <th>Match Option</th>
+                <th style="width:205px">Error Description</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @if (ViewBag.LineList != null)
+            {
+                foreach (var item in (List<AccountPaybleWeb.Models.Tbl_AP_LineItemDetail>)ViewBag.LineList)
+                {
+                    {
+                        if (!string.IsNullOrEmpty(item.ErrorDescrpion))
+                        {
+                            error = JsonConvert.DeserializeObject<ViewModelClass.ErrorModel>(item.ErrorDescrpion);
+                        }
+
+                    }
+                    <tr>
+
+                        <td>
+                            @if (!string.IsNullOrEmpty(item.ErrorDescrpion) && item.ErrorDescrpion.Contains("034"))
+                            {
+                                <input type="checkbox" onchange="StoreIdInfo(@item.LineItemID,this)" />
+                            }
+                            else
+                            {
+
+                                <input type="checkbox" readonly="readonly" disabled="disabled" />
+                            }
+
+                        </td>
+                        <td>@item.VendorName</td>
+                        <td>@item.InvoiceNoDate</td>
+                        @if (!string.IsNullOrEmpty(item.MatchOption) && item.MatchOption.ToLower().Equals("2-way"))
+                        {
+                            <td>
+                                @item.LineId
+                            </td>
+                        }
+                        else
+                        {
+                            <td></td>
+                        }
+
+                        @if (!string.IsNullOrEmpty(item.MatchOption) && item.MatchOption.ToLower().Equals("2-way"))
+                        {
+                            <td>
+                                @item.InvoiceDescription
+                            </td>
+                        }
+                        else
+                        {
+                            <td></td>
+                        }
+                        <td>@item.PONumber</td>
+                        <td>
+                            @if (string.IsNullOrEmpty(item.LineLocationID))
+                            {
+                                if (!string.IsNullOrEmpty(error.WarningMessage) && error.WarningMessage.ToLower().Contains("045"))
+                                {
+                                    <a href="#" data-toggle="modal" data-target="#myModal1" onclick="Get2WayView(@item.PONumber,@item.LineItemID)" id="@item.LineItemID" class="btn">Click</a>
+
+                                    <label id="2way_@item.LineItemID"></label>
+                                }
+
+                            }
+                            else
+                            {
+                                <label>@item.LineLocationID</label>
+                            }
+                        </td>
+                        <td>
+                            @if (string.IsNullOrEmpty(item.ReceiptNumber))
+                            {
+                                if (!string.IsNullOrEmpty(error.WarningMessage) && error.WarningMessage.ToLower().Contains("046"))
+                                {
+                                    <a href="#" data-toggle="modal" data-target="#myModal1" onclick="Get3WayView(@item.PONumber,@item.LineItemID)" id="@item.LineItemID" class="btn">Click</a>
+                                    <label id="3way_@item.LineItemID"></label>
+                                }
+
+                            }
+                            else
+                            {
+                                <label>@item.ReceiptNumber</label>
+
+                            }
+
+                        </td>
+                        <td>@item.MatchOption</td>
+                        <td>
+                            @if (!string.IsNullOrEmpty(item.ErrorDescrpion))
+                            {
+
+                                <span style="color:#f5ad0b">@error.WarningMessage</span>
+                                <br />
+                                <span style="color:red">@error.ErrorMessage</span>
+                            }
+                        </td>
+                    </tr>
+                }
+
+            }
+            else
+            {
+                <tr>
+                    <td>No data in the table.</td>
+                </tr>
+            }
+
+        </tbody>
+
+    </table>
+</form>
+<script>
+    function Get2WayView(text, id) {
+        debugger
+        var modalbody = document.getElementById("mbdy");
+        $("#hitem").val(id);
+        var mbdytext = " <table class='table-bordered'><thead> <tr><th>PO Number</th> <th>Line Desc.</th><th>Location Code</th><th>Line Location Id</th><th>Line Price</th><th>Available Qty</th><th>Available Amt.</th>" +
+            "<th> GPI Reg.NO</th> <th>Tax Rate</th> <th></th></tr > </thead > <tbody>";
+
+        $.ajax({
+            type: "POST",
+            url: "/AP/Get2wayView",
+            contentType: "application/json; charset=utf-8",
+            data: '{"ponumber":"' + text + '"}',
+            dataType: "json",
+            success: function (data) {
+                if (data != null) {
+
+                    data.forEach(function (item) {
+
+                        mbdytext = mbdytext+ "<tr><td>" + item.PO_Number + "</td><td>" + item.Line_Description + "</td><td>" + item.Location_code + "</td><td>" + item.Line_location_id + "</td><td>" + item.Line_price + "</td><td>" + item.Available_Qty + "</td><td>" + item.Available_Amount + "</td><td>" + item.GPI_GST_Regn_No + "</td><td>" + item.Tax_Rate + "</td>" +
+                            "<td><a onclick='GetLineItemNumber(" + item.Line_location_id + ")' data-dismiss='modal' class='btn btn-default btn-sm'><span><i class='glyphicon glyphicon-edit'></i></span></a></td></tr>";
+
+                    });
+                    mbdytext = mbdytext + "</tbody></table>";
+                    modalbody.innerHTML = mbdytext;
+                }
+            },
+            error: function () {
+                alert("Error")
+            }
+        });
+
+
+    }
+    function GetLineItemNumber(x) {
+        if (confirm("Please make sure the Line Location ID.Further change won't be applicable.")) {
+            var itemid = $("#hitem").val();
+            $("#2way_" + itemid).text(x);
+            $("#" + itemid).hide();
+            $.ajax({
+                type: "POST",
+                url: "/AP/UpdateLineLocationID",
+                contentType: "application/json; charset=utf-8",
+                data: '{ "id": "' + itemid + '", "LocID": "' + x + '" }',
+                success: function () {
+
+                },
+                error: function () {
+                }
+            });
+
+        }
+        else {
+            event.preventDefault();
+        }
+    }
+    function StoreIdInfo(v,check) {
+        debugger;
+        var hid = $("#hid").val();
+        if (check.checked) {
+            hid += v + ",";
+        }
+        else {
+            hid = hid.replace(v + ",", "");
+        }
+        $("#hid").val(hid);
+    }
+</script>

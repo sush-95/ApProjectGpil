@@ -1,0 +1,81 @@
+﻿
+@{
+    ViewBag.Title = "Invoice Tracker";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+    var sobj = (AccountPaybleWeb.Manager.ViewModelClass.SearchViewModel)ViewBag.SearchDetail;
+}
+
+<div class="well-sm firstheader">
+    <h3>Invoice Daily Tracker</h3>
+</div>
+<div class="jumbotron">
+
+    <div class="container-fluid">
+
+        <div class="col-md-2"></div>
+        <div class="col-md-10">
+            <form action="/AP/InvoiceTrackPage">
+                <div class="row">
+                    <input type="hidden" name="tab" id="htab" value="1" />
+                    <div class="col-md-2">
+                        <b>Invoice From Date:</b>
+                        <input type="text" id="fdate" value="" autocomplete="off" name="fromdate" class="form-control invoice" />
+                        @*@if (sobj != null && sobj.fromdate.Year == 1)
+                        {
+
+                            <input type="text" id="fdate" value="" autocomplete="off" name="fromdate" class="form-control invoice" />
+                        }
+                        else
+                        {
+                            <input type="text" id="fdate" autocomplete="off" value="@sobj.fromdate.ToString("dd-MMM-yyyy")" name="fromdate" class="form-control invoice" />
+                        }*@
+                    </div>
+
+
+                    <div class="col-md-2">
+                        <b>Invoice To Date:</b>
+                        <input type="text" id="tdate" autocomplete="off" onchange="Tdate(this)" name="todate" class="form-control invoice" />
+                        @*@if (sobj != null && sobj.fromdate.Year == 1)
+                        {
+                            <input type="text" id="tdate" autocomplete="off" onchange="Tdate(this)" name="todate" class="form-control invoice" />
+
+                        }
+                        else
+                        {
+                            <input type="text" id="tdate" autocomplete="off" value="@sobj.todate.ToString("dd-MMM-yyyy")" onchange="Tdate(this)" name="todate" class="form-control invoice" />
+                        }*@
+                    </div>
+                    <div class="col-md-2">
+                        <b style="color:#ffffff12">.......................</b>
+                        <button type="submit" style="background-color: #6875688f;color: white;" onclick="Checkdate()" value="Search" name="Search" class="btn btn-default">
+                            <span> <i class="glyphicon glyphicon-search"> </i> </span> Search
+                        </button>
+                    </div>
+                </div>
+                <br />
+
+            </form>
+        </div>
+        <div class="row" style="padding:15px">
+            <table id="example2" class="table-bordered table table-striped table-condensed tblx" style="text-align:center">
+                <thead>
+                    <tr>
+                        <th>@*<input type="checkbox" name="all" />*@</th>
+                        <th>Invoice No</th>
+                        <th>Invoice Date</th>
+                        <th>PO NO</th>
+                        <th>Vendor Name</th>
+                        <th>Vendor Site</th>
+                        <th>Invoice Amount</th>
+                        <th>Remarks</th>
+                        <th>Approvers</th>
+
+                    </tr>
+                </thead>
+                <tbody></tbody>
+
+            </table>
+        </div>
+    </div>
+</div>
+

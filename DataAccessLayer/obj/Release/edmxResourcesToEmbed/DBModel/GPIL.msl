@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GPILModelStoreContainer" CdmEntityContainer="GPILEntities">
+    <EntitySetMapping Name="TBL_Processes">
+      <EntityTypeMapping TypeName="GPILModel.TBL_Processes">
+        <MappingFragment StoreEntitySet="TBL_Processes">
+          <ScalarProperty Name="ProcessId" ColumnName="ProcessId" />
+          <ScalarProperty Name="ProcessDescription" ColumnName="ProcessDescription" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_ProcessInstanceDetails">
+      <EntityTypeMapping TypeName="GPILModel.TBL_ProcessInstanceDetails">
+        <MappingFragment StoreEntitySet="TBL_ProcessInstanceDetails">
+          <ScalarProperty Name="ProcessInstanceId" ColumnName="ProcessInstanceId" />
+          <ScalarProperty Name="SequenceId" ColumnName="SequenceId" />
+          <ScalarProperty Name="StateId" ColumnName="StateId" />
+          <ScalarProperty Name="IsCompleted" ColumnName="IsCompleted" />
+          <ScalarProperty Name="CreateTS" ColumnName="CreateTS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_ProcessInstances">
+      <EntityTypeMapping TypeName="GPILModel.TBL_ProcessInstances">
+        <MappingFragment StoreEntitySet="TBL_ProcessInstances">
+          <ScalarProperty Name="ProcessInstanceId" ColumnName="ProcessInstanceId" />
+          <ScalarProperty Name="ProcessId" ColumnName="ProcessId" />
+          <ScalarProperty Name="CreatedTS" ColumnName="CreatedTS" />
+          <ScalarProperty Name="ParentProcessInstanceId" ColumnName="ParentProcessInstanceId" />
+          <ScalarProperty Name="IsCompleted" ColumnName="IsCompleted" />
+          <ScalarProperty Name="AllocatedServer" ColumnName="AllocatedServer" />
+          <ScalarProperty Name="AllocatedTS" ColumnName="AllocatedTS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_States">
+      <EntityTypeMapping TypeName="GPILModel.TBL_States">
+        <MappingFragment StoreEntitySet="TBL_States">
+          <ScalarProperty Name="StateId" ColumnName="StateId" />
+          <ScalarProperty Name="StateDescription" ColumnName="StateDescription" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="USP_Insert_ProcessInstance" FunctionName="GPILModel.Store.USP_Insert_ProcessInstance" />
+    <EntitySetMapping Name="TBL_AirlineGSTConfig">
+      <EntityTypeMapping TypeName="GPILModel.TBL_AirlineGSTConfig">
+        <MappingFragment StoreEntitySet="TBL_AirlineGSTConfig">
+          <ScalarProperty Name="ConfigValue" ColumnName="ConfigValue" />
+          <ScalarProperty Name="ConfigKey" ColumnName="ConfigKey" />
+          <ScalarProperty Name="ProcessId" ColumnName="ProcessId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_Frequency">
+      <EntityTypeMapping TypeName="GPILModel.TBL_Frequency">
+        <MappingFragment StoreEntitySet="TBL_Frequency">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="FrequencyId" ColumnName="FrequencyId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_BotInfo">
+      <EntityTypeMapping TypeName="GPILModel.TBL_BotInfo">
+        <MappingFragment StoreEntitySet="TBL_BotInfo">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="ModifiedTS" ColumnName="ModifiedTS" />
+          <ScalarProperty Name="CreatedTS" ColumnName="CreatedTS" />
+          <ScalarProperty Name="MaxBotQueue" ColumnName="MaxBotQueue" />
+          <ScalarProperty Name="MachineName" ColumnName="MachineName" />
+          <ScalarProperty Name="RequestQueueName" ColumnName="RequestQueueName" />
+          <ScalarProperty Name="ResponseQueueName" ColumnName="ResponseQueueName" />
+          <ScalarProperty Name="BotId" ColumnName="BotId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_BotProcessAssigment">
+      <EntityTypeMapping TypeName="GPILModel.TBL_BotProcessAssigment">
+        <MappingFragment StoreEntitySet="TBL_BotProcessAssigment">
+          <ScalarProperty Name="ProcessId" ColumnName="ProcessId" />
+          <ScalarProperty Name="BotId" ColumnName="BotId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_Process_Frequency">
+      <EntityTypeMapping TypeName="GPILModel.TBL_Process_Frequency">
+        <MappingFragment StoreEntitySet="TBL_Process_Frequency">
+          <ScalarProperty Name="FrequenceId" ColumnName="FrequenceId" />
+          <ScalarProperty Name="ProcessId" ColumnName="ProcessId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_MessageTracker">
+      <EntityTypeMapping TypeName="GPILModel.TBL_MessageTracker">
+        <MappingFragment StoreEntitySet="TBL_MessageTracker">
+          <ScalarProperty Name="IncrementTimeout" ColumnName="IncrementTimeout" />
+          <ScalarProperty Name="Sequence" ColumnName="Sequence" />
+          <ScalarProperty Name="ProcessInstanceID" ColumnName="ProcessInstanceID" />
+          <ScalarProperty Name="BotID" ColumnName="BotID" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="ResponseJsonData" ColumnName="ResponseJsonData" />
+          <ScalarProperty Name="RequestJsonData" ColumnName="RequestJsonData" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="RetrySequence" ColumnName="RetrySequence" />
+          <ScalarProperty Name="MessageID" ColumnName="MessageID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_ProcessInstanceData">
+      <EntityTypeMapping TypeName="GPILModel.TBL_ProcessInstanceData">
+        <MappingFragment StoreEntitySet="TBL_ProcessInstanceData">
+          <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+          <ScalarProperty Name="MessageId" ColumnName="MessageId" />
+          <ScalarProperty Name="ChildInstanceId" ColumnName="ChildInstanceId" />
+          <ScalarProperty Name="IsFinal" ColumnName="IsFinal" />
+          <ScalarProperty Name="IsProcessed" ColumnName="IsProcessed" />
+          <ScalarProperty Name="CreatedTS" ColumnName="CreatedTS" />
+          <ScalarProperty Name="MetaDataSequenceId" ColumnName="MetaDataSequenceId" />
+          <ScalarProperty Name="MetaData" ColumnName="MetaData" />
+          <ScalarProperty Name="SequenceId" ColumnName="SequenceId" />
+          <ScalarProperty Name="ProcessInstanceId" ColumnName="ProcessInstanceId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="USP_AllocateInstance" FunctionName="GPILModel.Store.USP_AllocateInstance" />
+    <FunctionImportMapping FunctionImportName="USP_CleanInstance" FunctionName="GPILModel.Store.USP_CleanInstance" />
+    <EntitySetMapping Name="TBL_ProcessInstanceError">
+      <EntityTypeMapping TypeName="GPILModel.TBL_ProcessInstanceError">
+        <MappingFragment StoreEntitySet="TBL_ProcessInstanceError">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CreateTS" ColumnName="CreateTS" />
+          <ScalarProperty Name="MetaData" ColumnName="MetaData" />
+          <ScalarProperty Name="StateId" ColumnName="StateId" />
+          <ScalarProperty Name="ProcessInstanceId" ColumnName="ProcessInstanceId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_InvoiceDetail">
+      <EntityTypeMapping TypeName="GPILModel.TBL_InvoiceDetail">
+        <MappingFragment StoreEntitySet="TBL_InvoiceDetail">
+          <ScalarProperty Name="ProcessInstanceId" ColumnName="ProcessInstanceId" />
+          <ScalarProperty Name="InvoiceDate" ColumnName="InvoiceDate" />
+          <ScalarProperty Name="InvoiceNumber" ColumnName="InvoiceNumber" />
+          <ScalarProperty Name="AirlineGSTNumber" ColumnName="AirlineGSTNumber" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_UserLogin">
+      <EntityTypeMapping TypeName="GPILModel.TBL_UserLogin">
+        <MappingFragment StoreEntitySet="TBL_UserLogin">
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="USP_GetInvoiceByDownloadDate" FunctionName="GPILModel.Store.USP_GetInvoiceByDownloadDate">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="GPILModel.USP_GetInvoiceByDownloadDate_Result">
+          <ScalarProperty Name="IsCompleted" ColumnName="IsCompleted" />
+          <ScalarProperty Name="ProcessId" ColumnName="ProcessId" />
+          <ScalarProperty Name="CreatedTS" ColumnName="CreatedTS" />
+          <ScalarProperty Name="ProcessInstanceId" ColumnName="ProcessInstanceId" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_GetDownloadDateExportReport" FunctionName="GPILModel.Store.USP_GetDownloadDateExportReport">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="GPILModel.USP_GetDownloadDateExportReport_Result">
+          <ScalarProperty Name="RowNumber" ColumnName="RowNumber" />
+          <ScalarProperty Name="ProcessInstanceId" ColumnName="ProcessInstanceId" />
+          <ScalarProperty Name="CreatedTS" ColumnName="CreatedTS" />
+          <ScalarProperty Name="IsCompleted" ColumnName="IsCompleted" />
+          <ScalarProperty Name="ProcessId" ColumnName="ProcessId" />
+          <ScalarProperty Name="ParentProcessInstanceId" ColumnName="ParentProcessInstanceId" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_GetInvoiceByDate_New" FunctionName="GPILModel.Store.USP_GetInvoiceByDate_New">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="GPILModel.USP_GetInvoiceByDate_New_Result">
+          <ScalarProperty Name="RowNumber" ColumnName="RowNumber" />
+          <ScalarProperty Name="ProcessInstanceId" ColumnName="ProcessInstanceId" />
+          <ScalarProperty Name="CreatedTS" ColumnName="CreatedTS" />
+          <ScalarProperty Name="IsCompleted" ColumnName="IsCompleted" />
+          <ScalarProperty Name="ProcessId" ColumnName="ProcessId" />
+          <ScalarProperty Name="ParentProcessInstanceId" ColumnName="ParentProcessInstanceId" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_GetInvoiceByDownloadDate_New" FunctionName="GPILModel.Store.USP_GetInvoiceByDownloadDate_New">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="GPILModel.USP_GetInvoiceByDownloadDate_New_Result">
+          <ScalarProperty Name="RowNumber" ColumnName="RowNumber" />
+          <ScalarProperty Name="ProcessInstanceId" ColumnName="ProcessInstanceId" />
+          <ScalarProperty Name="CreatedTS" ColumnName="CreatedTS" />
+          <ScalarProperty Name="IsCompleted" ColumnName="IsCompleted" />
+          <ScalarProperty Name="ProcessId" ColumnName="ProcessId" />
+          <ScalarProperty Name="ParentProcessInstanceId" ColumnName="ParentProcessInstanceId" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_GetInvoiceDateExportReport" FunctionName="GPILModel.Store.USP_GetInvoiceDateExportReport">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="GPILModel.USP_GetInvoiceDateExportReport_Result">
+          <ScalarProperty Name="RowNumber" ColumnName="RowNumber" />
+          <ScalarProperty Name="ProcessInstanceId" ColumnName="ProcessInstanceId" />
+          <ScalarProperty Name="CreatedTS" ColumnName="CreatedTS" />
+          <ScalarProperty Name="IsCompleted" ColumnName="IsCompleted" />
+          <ScalarProperty Name="ProcessId" ColumnName="ProcessId" />
+          <ScalarProperty Name="ParentProcessInstanceId" ColumnName="ParentProcessInstanceId" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_CleanAllLockdedInstance" FunctionName="GPILModel.Store.USP_CleanAllLockdedInstance" />
+    <EntitySetMapping Name="TBL_ProcessExecution_Settings">
+      <EntityTypeMapping TypeName="GPILModel.TBL_ProcessExecution_Settings">
+        <MappingFragment StoreEntitySet="TBL_ProcessExecution_Settings">
+          <ScalarProperty Name="RequestDate" ColumnName="RequestDate" />
+          <ScalarProperty Name="ProcessInstanceId" ColumnName="ProcessInstanceId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IsComplete" ColumnName="IsComplete" />
+          <ScalarProperty Name="EndData" ColumnName="EndData" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="ProcessId" ColumnName="ProcessId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_EmailTracker">
+      <EntityTypeMapping TypeName="GPILModel.TBL_EmailTracker">
+        <MappingFragment StoreEntitySet="TBL_EmailTracker">
+          <ScalarProperty Name="GstNumber" ColumnName="GstNumber" />
+          <ScalarProperty Name="SentDate" ColumnName="SentDate" />
+          <ScalarProperty Name="ToEmailId" ColumnName="ToEmailId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_ExcelRules">
+      <EntityTypeMapping TypeName="GPILModel.TBL_ExcelRules">
+        <MappingFragment StoreEntitySet="TBL_ExcelRules">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="RuleName" ColumnName="RuleName" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

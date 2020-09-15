@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\itext7.pdf2data.2.1.2\build\itext7.pdf2data.props" Condition="Exists('..\packages\itext7.pdf2data.2.1.2\build\itext7.pdf2data.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4501EA62-D756-40C1-ADE2-6B987699A0FC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Common</RootNamespace>
+    <AssemblyName>Common</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ActiveUp.Net, Version=2.1.41.0, Culture=neutral, PublicKeyToken=2ff270728258992b, processorArchitecture=MSIL">
+      <HintPath>..\packages\MailSystem.Net-trunk.2.1.41\lib\net40\ActiveUp.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiveUp.Net.Common, Version=2.1.41.0, Culture=neutral, PublicKeyToken=6cceae6a4844c51b, processorArchitecture=MSIL">
+      <HintPath>..\packages\MailSystem.Net-trunk.2.1.41\lib\net40\ActiveUp.Net.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiveUp.Net.Dns, Version=2.1.41.0, Culture=neutral, PublicKeyToken=6fc67824e0089991, processorArchitecture=MSIL">
+      <HintPath>..\packages\MailSystem.Net-trunk.2.1.41\lib\net40\ActiveUp.Net.Dns.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiveUp.Net.Groupware, Version=2.1.41.0, Culture=neutral, PublicKeyToken=db51b95d57ebfe25, processorArchitecture=MSIL">
+      <HintPath>..\packages\MailSystem.Net-trunk.2.1.41\lib\net40\ActiveUp.Net.Groupware.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiveUp.Net.Imap4, Version=2.1.41.0, Culture=neutral, PublicKeyToken=9d424b1770e92b68, processorArchitecture=MSIL">
+      <HintPath>..\packages\MailSystem.Net-trunk.2.1.41\lib\net40\ActiveUp.Net.Imap4.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiveUp.Net.Mail, Version=2.1.41.0, Culture=neutral, PublicKeyToken=851b9e39ef2572fb, processorArchitecture=MSIL">
+      <HintPath>..\packages\MailSystem.Net-trunk.2.1.41\lib\net40\ActiveUp.Net.Mail.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiveUp.Net.Nntp, Version=2.1.41.0, Culture=neutral, PublicKeyToken=01416978360a49a1, processorArchitecture=MSIL">
+      <HintPath>..\packages\MailSystem.Net-trunk.2.1.41\lib\net40\ActiveUp.Net.Nntp.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiveUp.Net.OpenPGP, Version=2.1.41.0, Culture=neutral, PublicKeyToken=0e094b86584219e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\MailSystem.Net-trunk.2.1.41\lib\net40\ActiveUp.Net.OpenPGP.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiveUp.Net.Pop3, Version=2.1.41.0, Culture=neutral, PublicKeyToken=962567372c07b9fe, processorArchitecture=MSIL">
+      <HintPath>..\packages\MailSystem.Net-trunk.2.1.41\lib\net40\ActiveUp.Net.Pop3.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiveUp.Net.Smtp, Version=2.1.41.0, Culture=neutral, PublicKeyToken=366752d00f09ae34, processorArchitecture=MSIL">
+      <HintPath>..\packages\MailSystem.Net-trunk.2.1.41\lib\net40\ActiveUp.Net.Smtp.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiveUp.Net.WhoIs, Version=2.1.41.0, Culture=neutral, PublicKeyToken=6b9afb81c1de5ed4, processorArchitecture=MSIL">
+      <HintPath>..\packages\MailSystem.Net-trunk.2.1.41\lib\net40\ActiveUp.Net.WhoIs.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.1.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
+      <HintPath>..\packages\Portable.BouncyCastle.1.8.1.4\lib\net40\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging, Version=3.4.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Logging.3.4.1\lib\net40\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging.Core, Version=3.4.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Logging.Core.3.4.1\lib\net40\Common.Logging.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DataAccessLayer">
+      <HintPath>..\DataAccessLayer\bin\Debug\DataAccessLayer.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.barcodes, Version=7.1.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.5\lib\net40\itext.barcodes.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.font_asian, Version=7.1.4.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.font-asian.7.1.4\lib\net40\itext.font_asian.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.forms, Version=7.1.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.5\lib\net40\itext.forms.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.io, Version=7.1.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.5\lib\net40\itext.io.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.kernel, Version=7.1.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.5\lib\net40\itext.kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.layout, Version=7.1.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.5\lib\net40\itext.layout.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.licensekey, Version=3.0.4.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.licensekey.3.0.4\lib\net40\itext.licensekey.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.pdf2data, Version=2.1.2.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.pdf2data.2.1.2\lib\net40\itext.pdf2data.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.pdfa, Version=7.1.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.5\lib\net40\itext.pdfa.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.sign, Version=7.1.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.5\lib\net40\itext.sign.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.styledxmlparser, Version=7.1.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.5\lib\net40\itext.styledxmlparser.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.svg, Version=7.1.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.5\lib\net40\itext.svg.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Win32.Primitives.4.3.0\lib\net46\Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfiumViewer, Version=2.13.0.0, Culture=neutral, PublicKeyToken=91e4789cfb0609e0, processorArchitecture=MSIL">
+      <HintPath>..\packages\PdfiumViewer.2.13.0.0\lib\net20\PdfiumViewer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.AppContext, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.AppContext.4.3.0\lib\net46\System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Console, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Console.4.3.0\lib\net46\System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.4.3.0\lib\net46\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Globalization.Calendars.4.3.0\lib\net46\System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.IO.Compression.ZipFile, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Compression.ZipFile.4.3.0\lib\net46\System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.FileSystem.4.3.0\lib\net46\System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.FileSystem.Primitives.4.3.0\lib\net46\System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Net.Http, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Http.4.3.0\lib\net46\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Sockets.4.3.0\lib\net46\System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.InteropServices.RuntimeInformation.4.3.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Algorithms.4.3.0\lib\net461\System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.X509Certificates.4.3.0\lib\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.ReaderWriter, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Xml.ReaderWriter.4.3.0\lib\net46\System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing, Version=0.16.4.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.4\lib\net461\zxing.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.presentation, Version=0.16.4.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.4\lib\net461\zxing.presentation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Code\Constants.cs" />
+    <Compile Include="App_Code\EMailManager.cs" />
+    <Compile Include="App_Code\QueueMessage\QDetailsERP.cs" />
+    <Compile Include="App_Code\QueueMessage\QDetailsExcelDownload.cs" />
+    <Compile Include="App_Code\QueueMessage\QDetailsExcelUpload.cs" />
+    <Compile Include="App_Code\QueueMessage\QDetailsInvoiceDownload.cs" />
+    <Compile Include="App_Code\QueueMessage\QDetailsPDF.cs" />
+    <Compile Include="App_Code\QueueMessage\QMessageDetails.cs" />
+    <Compile Include="App_Code\QueueMessage\QMessageHeader.cs" />
+    <Compile Include="App_Code\QueueMessage\QMessageStatus.cs" />
+    <Compile Include="App_Code\QueueMessage\QRequestMessage.cs" />
+    <Compile Include="App_Code\QueueMessage\QResponseMessage.cs" />
+    <Compile Include="App_Code\QueueMessage\SendReciveMsg.cs" />
+    <Compile Include="App_Code\ViewModelClass.cs" />
+    <Compile Include="App_Code\ViewModel\PDFViewModel.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="obj\Release\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Release\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Release\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="App_Code\QueueMessage\QDetails.cs" />
+    <Compile Include="App_Code\Utils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bin\Release\Common.dll.config" />
+    <None Include="bin\Release\DataAccessLayer.dll.config" />
+    <None Include="obj\Debug\build.force" />
+    <None Include="obj\Debug\Common.csproj.CopyComplete" />
+    <None Include="obj\Debug\Common.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\Common.csprojAssemblyReference.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Release\Common.csproj.CopyComplete" />
+    <None Include="obj\Release\Common.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Release\Common.csprojAssemblyReference.cache" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Common.dll" />
+    <Content Include="bin\Debug\Common.pdb" />
+    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
+    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
+    <Content Include="bin\Release\ActiveUp.Net.Common.dll" />
+    <Content Include="bin\Release\ActiveUp.Net.Common.xml" />
+    <Content Include="bin\Release\ActiveUp.Net.dll" />
+    <Content Include="bin\Release\ActiveUp.Net.Dns.dll" />
+    <Content Include="bin\Release\ActiveUp.Net.Dns.xml" />
+    <Content Include="bin\Release\ActiveUp.Net.Groupware.dll" />
+    <Content Include="bin\Release\ActiveUp.Net.Imap4.dll" />
+    <Content Include="bin\Release\ActiveUp.Net.Imap4.xml" />
+    <Content Include="bin\Release\ActiveUp.Net.Mail.dll" />
+    <Content Include="bin\Release\ActiveUp.Net.Mail.xml" />
+    <Content Include="bin\Release\ActiveUp.Net.Nntp.dll" />
+    <Content Include="bin\Release\ActiveUp.Net.Nntp.xml" />
+    <Content Include="bin\Release\ActiveUp.Net.OpenPGP.dll" />
+    <Content Include="bin\Release\ActiveUp.Net.OpenPGP.xml" />
+    <Content Include="bin\Release\ActiveUp.Net.Pop3.dll" />
+    <Content Include="bin\Release\ActiveUp.Net.Pop3.xml" />
+    <Content Include="bin\Release\ActiveUp.Net.Smtp.dll" />
+    <Content Include="bin\Release\ActiveUp.Net.Smtp.xml" />
+    <Content Include="bin\Release\ActiveUp.Net.WhoIs.dll" />
+    <Content Include="bin\Release\ActiveUp.Net.WhoIs.xml" />
+    <Content Include="bin\Release\ActiveUp.Net.xml" />
+    <Content Include="bin\Release\BouncyCastle.Crypto.dll" />
+    <Content Include="bin\Release\BouncyCastle.Crypto.xml" />
+    <Content Include="bin\Release\Common.dll" />
+    <Content Include="bin\Release\Common.Logging.Core.dll" />
+    <Content Include="bin\Release\Common.Logging.Core.pdb" />
+    <Content Include="bin\Release\Common.Logging.Core.xml" />
+    <Content Include="bin\Release\Common.Logging.dll" />
+    <Content Include="bin\Release\Common.Logging.pdb" />
+    <Content Include="bin\Release\Common.Logging.xml" />
+    <Content Include="bin\Release\Common.pdb" />
+    <Content Include="bin\Release\DataAccessLayer.dll" />
+    <Content Include="bin\Release\DataAccessLayer.pdb" />
+    <Content Include="bin\Release\EntityFramework.dll" />
+    <Content Include="bin\Release\EntityFramework.xml" />
+    <Content Include="bin\Release\itext.barcodes.dll" />
+    <Content Include="bin\Release\itext.barcodes.xml" />
+    <Content Include="bin\Release\itext.font_asian.dll" />
+    <Content Include="bin\Release\itext.font_asian.xml" />
+    <Content Include="bin\Release\itext.forms.dll" />
+    <Content Include="bin\Release\itext.forms.xml" />
+    <Content Include="bin\Release\itext.io.dll" />
+    <Content Include="bin\Release\itext.io.xml" />
+    <Content Include="bin\Release\itext.kernel.dll" />
+    <Content Include="bin\Release\itext.kernel.xml" />
+    <Content Include="bin\Release\itext.layout.dll" />
+    <Content Include="bin\Release\itext.layout.xml" />
+    <Content Include="bin\Release\itext.licensekey.dll" />
+    <Content Include="bin\Release\itext.licensekey.xml" />
+    <Content Include="bin\Release\itext.pdf2data.dll" />
+    <Content Include="bin\Release\itext.pdf2data.xml" />
+    <Content Include="bin\Release\itext.pdfa.dll" />
+    <Content Include="bin\Release\itext.pdfa.xml" />
+    <Content Include="bin\Release\itext.sign.dll" />
+    <Content Include="bin\Release\itext.sign.xml" />
+    <Content Include="bin\Release\itext.styledxmlparser.dll" />
+    <Content Include="bin\Release\itext.styledxmlparser.xml" />
+    <Content Include="bin\Release\itext.svg.dll" />
+    <Content Include="bin\Release\itext.svg.xml" />
+    <Content Include="bin\Release\itextsharp.dll" />
+    <Content Include="bin\Release\itextsharp.xml" />
+    <Content Include="bin\Release\Microsoft.Win32.Primitives.dll" />
+    <Content Include="bin\Release\Newtonsoft.Json.dll" />
+    <Content Include="bin\Release\Newtonsoft.Json.pdb" />
+    <Content Include="bin\Release\Newtonsoft.Json.xml" />
+    <Content Include="bin\Release\NLog.dll" />
+    <Content Include="bin\Release\NLog.xml" />
+    <Content Include="bin\Release\nl\PdfiumViewer.resources.dll" />
+    <Content Include="bin\Release\Oracle.ManagedDataAccess.dll" />
+    <Content Include="bin\Release\PdfiumViewer.dll" />
+    <Content Include="bin\Release\PdfiumViewer.xml" />
+    <Content Include="bin\Release\System.AppContext.dll" />
+    <Content Include="bin\Release\System.Console.dll" />
+    <Content Include="bin\Release\System.Diagnostics.DiagnosticSource.dll" />
+    <Content Include="bin\Release\System.Diagnostics.DiagnosticSource.xml" />
+    <Content Include="bin\Release\System.Globalization.Calendars.dll" />
+    <Content Include="bin\Release\System.IO.Compression.ZipFile.dll" />
+    <Content Include="bin\Release\System.IO.FileSystem.dll" />
+    <Content Include="bin\Release\System.IO.FileSystem.Primitives.dll" />
+    <Content Include="bin\Release\System.Net.Http.dll" />
+    <Content Include="bin\Release\System.Net.Sockets.dll" />
+    <Content Include="bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll" />
+    <Content Include="bin\Release\System.Security.Cryptography.Algorithms.dll" />
+    <Content Include="bin\Release\System.Security.Cryptography.Encoding.dll" />
+    <Content Include="bin\Release\System.Security.Cryptography.Primitives.dll" />
+    <Content Include="bin\Release\System.Security.Cryptography.X509Certificates.dll" />
+    <Content Include="bin\Release\System.Xml.ReaderWriter.dll" />
+    <Content Include="bin\Release\x64\pdfium.dll" />
+    <Content Include="bin\Release\x86\pdfium.dll" />
+    <Content Include="bin\Release\zxing.dll" />
+    <Content Include="bin\Release\zxing.pdb" />
+    <Content Include="bin\Release\zxing.presentation.dll" />
+    <Content Include="bin\Release\zxing.presentation.pdb" />
+    <Content Include="bin\Release\zxing.presentation.xml" />
+    <Content Include="bin\Release\zxing.xml" />
+    <Content Include="obj\Debug\Common.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\Common.dll" />
+    <Content Include="obj\Debug\Common.pdb" />
+    <Content Include="obj\Release\Common.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Release\Common.dll" />
+    <Content Include="obj\Release\Common.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="obj\Release\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\itext7.pdf2data.2.1.2\build\itext7.pdf2data.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\itext7.pdf2data.2.1.2\build\itext7.pdf2data.props'))" />
+    <Error Condition="!Exists('..\packages\NETStandard.Library.2.0.0\build\netstandard2.0\NETStandard.Library.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NETStandard.Library.2.0.0\build\netstandard2.0\NETStandard.Library.targets'))" />
+  </Target>
+  <Import Project="..\packages\NETStandard.Library.2.0.0\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('..\packages\NETStandard.Library.2.0.0\build\netstandard2.0\NETStandard.Library.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

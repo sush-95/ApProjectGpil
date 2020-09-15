@@ -1,0 +1,552 @@
+﻿
+@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+    var sobj = (AccountPaybleWeb.Manager.ViewModelClass.SearchViewModel)ViewBag.SearchDetail;
+}
+
+<style>
+    tbody {
+        font-size: 11px;
+    }
+
+    .table-bordered th {
+        text-align: center;
+    }
+
+    .table-bordered td {
+        text-align: center;
+    }
+
+    #errordiv {
+        position: relative;
+        top: -31px;
+    }
+
+    #approvediv {
+        position: relative;
+        top: -31px;
+    }
+
+    #tb1 {
+        width: 100%;
+        margin: 1px;
+        color: #131111eb;
+    }
+
+        #tb1 th {
+            border: solid;
+            text-align: center;
+            font-size: 13px;
+        }
+
+        #tb1 td {
+            border: solid;
+            text-align: center;
+            font-size: 13px;
+        }
+
+    #tblinv1 {
+        width: 100%;
+        margin: 1px;
+        color: #131111eb;
+    }
+
+        #tblinv1 th {
+            border: solid;
+            text-align: right;
+            font-size: 13px;
+        }
+
+        #tblinv1 td {
+            border: solid;
+            text-align: center;
+            font-size: 13px;
+        }
+
+    .tblx thead {
+        background: rgb(74, 86, 79);
+        color: white;
+    }
+
+        .tblx thead th {
+            text-align: center;
+        }
+
+    .dul {
+        border-radius: 5px;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background: rgb(29,64,45);
+        background: linear-gradient(191deg, rgba(29,64,45,0.8239670868347339) 54%, rgba(110,99,86,0.5276391806722689) 97%);
+        top: 0;
+        width: 358px;
+        position: relative;
+        left: -1%;
+    }
+
+    .dli {
+        float: left;
+        cursor: pointer;
+    }
+
+        .dli a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+            .dli a:hover:not(.active) {
+                background-color: #111;
+            }
+
+    .active {
+        background-color: #192d27;
+    }
+</style>
+
+<div class="well-sm firstheader">
+    <h3> Invoice User Dashboard</h3>
+</div>
+
+<div class="jumbotron">
+
+    <div class="container-fluid">
+
+        <div class="col-md-2"></div>
+        <div class="col-md-10">
+            <form action="/AP/Home">
+                <div class="row">
+                    <input type="hidden" name="tab" id="htab" value="1" />
+                    <div class="col-md-2">
+                        <b>Invoice From Date:</b>
+                        @if (sobj != null && sobj.fromdate.Year == 1)
+                        {
+
+                            <input type="text" id="fdate" value="" autocomplete="off" name="fromdate" class="form-control invoice" />
+                        }
+                        else
+                        {
+                            <input type="text" id="fdate" autocomplete="off" value="@sobj.fromdate.ToString("dd-MMM-yyyy")" name="fromdate" class="form-control invoice" />
+                        }
+                    </div>
+
+
+                    <div class="col-md-2">
+                        <b>Invoice To Date:</b>
+                        @if (sobj != null && sobj.fromdate.Year == 1)
+                        {
+                            <input type="text" id="tdate" autocomplete="off" onchange="Tdate(this)" name="todate" class="form-control invoice" />
+
+                        }
+                        else
+                        {
+                            <input type="text" id="tdate" autocomplete="off" value="@sobj.todate.ToString("dd-MMM-yyyy")" onchange="Tdate(this)" name="todate" class="form-control invoice" />
+                        }
+                    </div>
+                    <div class="col-md-2">
+                        <b>PO Number:</b>
+                        @if (sobj != null && string.IsNullOrEmpty(sobj.ponumber))
+                        {
+
+                            <input type="text" value="" name="ponumber" class="form-control" />
+                        }
+                        else
+                        {
+                            <input type="text" value="@sobj.ponumber" name="ponumber" class="form-control" />
+                        }
+                    </div>
+                    <div class="col-md-2">
+                        <b> Status:</b>
+                        <select class="form-control" name="Status">
+                            <option value=""> Select</option>
+                            @if (sobj != null && !string.IsNullOrEmpty(sobj.Status))
+                            {
+
+                                <option value="@sobj.Status.Split(',')[0]" selected hidden> @sobj.Status.Split(',')[1]</option>
+                            }
+                            <option value="AP-POSTAT-001"> Error</option>
+                            <option value="AP-POSTAT-005"> Pending For Approval</option>
+                            <option value="AP-POSTAT-010"> Processed</option>
+                            <option value="AP-POSTAT-999">Rejected</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-2">
+                        <b> Vendor Name:</b>
+                        <select class="form-control" name="Vendor">
+                            <option value=""> Select</option>
+                            @if (sobj != null && !string.IsNullOrEmpty(sobj.Vendor))
+                            {
+                                <option value="@sobj.Vendor" selected hidden>@sobj.Vendor</option>
+                            }
+                            @if (ViewBag.vendors != null)
+                            {
+                                foreach (var item in ViewBag.vendors)
+                                {
+                                    <option value="@item">@item</option>
+                                }
+                            }
+
+                        </select>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div style="width:500px;font-weight:bold;position:relative;left:60%">
+                        <a href="/AP/Home" style="background-color: #16ac9e;color: white;" class="btn btn-default">
+                            Refresh <span> <i class="glyphicon glyphicon-refresh"> </i> </span>
+                        </a>
+                        <button type="submit" style="background-color: #3c524f;color: white;" onclick="Checkdate()" value="Search" name="Search" class="btn btn-default">
+                            <span> <i class="glyphicon glyphicon-search"> </i> </span> Search
+                        </button>
+
+                        @if (sobj != null)
+                        {
+                           @*<input type="hidden" id="hsrch" value=@Newtonsoft.Json.JsonConvert.SerializeObject(sobj) />*@
+                            <button type="submit" style="background-color: #57a747;color: white;" name="Excel" value="Excel" class="btn btn-default">
+                                <span> <i class="glyphicon glyphicon-export"> </i> </span> Excel
+                            </button>
+                        }
+                      
+                        @if (TempData["Success"] != null)
+                        {
+                            <div class="msgBar">
+                                <b style="padding:7px;color:#85f154">@TempData["Success"]</b>
+                            </div>
+                        }
+                        @if (TempData["Error"] != null)
+                        {
+                            <div class="msgBar">
+                                <b style="padding:7px;color:#f23f17">@TempData["Error"]</b>
+                            </div>
+                        }
+                            
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Invoice Detail</h4>
+            </div>
+            <div class="modal-body">
+                <table id="tblinv1">
+                    <tr>
+                        <th>Vedor Name:</th>
+                        <td id="vname"></td>
+                        <th>Vendor Gst:</th>
+                        <td id="vgst"></td>
+                    </tr>
+                    <tr>
+                        <th>GPI GST:</th>
+                        <td id="gpigst"></td>
+                        <th>Invoice NO:</th>
+                        <td id="invno"></td>
+                    </tr>
+                    <tr>
+                        <th>Invoice Date:</th>
+                        <td id="invdate"></td>
+                        <th>PO NO:</th>
+                        <td id="pono"></td>
+                    </tr>
+                    <tr>
+                        <th>E Way Bill No:</th>
+                        <td id="eway"></td>
+                        <th>Invoice Amount:</th>
+                        <td id="invamnt"></td>
+                    </tr>
+                </table>
+                <input type="hidden" id="htbl" />
+                <table id="tb1"></table>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="myModal1" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content" style="width:122%">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title"></h4>
+                <input type="hidden" id="hitem" value="" />
+            </div>
+            <div class="modal-body" id="mbdy">
+                <table class='table-bordered'>
+                    <thead>
+                        <tr>
+                            <th>PO Number</th>
+                            <th>Line Desc.</th>
+                            <th>Location Code</th>
+                            <th>Line Location Id</th>
+                            <th>Line Price</th>
+                            <th>Available Qty</th>
+                            <th>Available Amt.</th>
+                            <th>GPI Reg. NO</th>
+                            <th>Tax Rate</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<br />
+<div class="container-fluid">
+
+    <div class="jumbotron">
+
+        @if (sobj != null && !string.IsNullOrEmpty(sobj.tab))
+        {
+            string tab1, tab2, tab3, cls1, cls2, cls3;
+            if (sobj.tab.Trim().Equals("1")) { tab1 = "display:block"; tab2 = "display:none"; tab3 = "display:none"; cls1 = "active"; cls2 = ""; cls3 = ""; }
+            else if (sobj.tab.Trim().Equals("2")) { tab1 = "display:none"; tab2 = "display:block"; tab3 = "display:none"; cls1 = ""; cls2 = "active"; cls3 = ""; }
+            else { tab1 = "display:none"; tab2 = "display:none"; tab3 = "display:block"; cls1 = ""; cls2 = ""; cls3 = "active"; }
+
+            <ul class="dul">
+                <li class="dli"> <a id="home" class="@cls1" onclick="SwitchTab(1)">Home</a> </li>
+                <li class="dli"> <a id="error" class="@cls2" onclick="SwitchTab(2)"> Resolve Errors</a> </li>
+                <li class="dli"> <a id="approve" class="@cls3" onclick="SwitchTab(3)"> Approval Submission</a> </li>
+            </ul>
+            <br />
+            <div class="row" id="homediv" style="@tab1">
+                @Html.Partial("_PoDetailPartial")
+            </div>
+            <div class="row" id="errordiv" style="@tab2">
+                @Html.Partial("_errorPartialView")
+            </div>
+            <div class="row" id="approvediv" style="@tab3">
+                @Html.Partial("_ApprovePartial")
+            </div>
+        }
+        else
+        {
+            <ul class="dul">
+                <li class="dli"> <a id="home" class="active" onclick="SwitchTab(1)">Home</a> </li>
+                <li class="dli"> <a id="error" onclick="SwitchTab(2)"> Resolve Errors</a> </li>
+                <li class="dli"> <a id="approve" onclick="SwitchTab(3)"> Approval Submission</a> </li>
+            </ul>
+            <br />
+            <div class="row" id="homediv">
+                @Html.Partial("_PoDetailPartial")
+            </div>
+            <div class="row" id="errordiv" style="display:none">
+                @Html.Partial("_errorPartialView")
+            </div>
+            <div class="row" id="approvediv" style="display:none">
+                @Html.Partial("_ApprovePartial")
+            </div>
+        }
+
+    </div>
+</div>
+
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script>
+    function SwitchTab(x) {
+        debugger;
+        if (x == 1) {
+            Displayhome();
+            $("#htab").val(1)
+
+        }
+        else if (x == 2) {
+            DisplayError();
+            $("#htab").val(2)
+        }
+        else {
+            DisplayApproved();
+            $("#htab").val(3)
+        }
+
+    }
+
+   
+
+    function Displayhome() {
+        $("#home").attr("class", "active");
+        $("#error").attr("class", "");
+        $("#approve").attr("class", "");
+        $("#homediv").show();
+        $("#errordiv").hide();
+        $("#approvediv").hide();
+
+
+    }
+    function DisplayError() {
+        $("#home").attr("class", "");
+        $("#error").attr("class", "active");
+        $("#approve").attr("class", "");
+        $("#homediv").hide();
+        $("#errordiv").show();
+        $("#approvediv").hide();
+
+
+    }
+    function DisplayApproved() {
+        $("#home").attr("class", "");
+        $("#error").attr("class", "");
+        $("#approve").attr("class", "active");
+        $("#homediv").hide();
+        $("#errordiv").hide();
+        $("#approvediv").show();
+
+    }
+
+
+    function getPdfDetail(x) {
+        $("#vname").text(x.Detail.VendorName);
+        $("#vgst").text(x.Detail.VendorGst);
+        $("#gpigst").text(x.Detail.GPIGST);
+        $("#invno").text(x.Detail.InvoiceNumber);
+        $("#invdate").text(x.Detail.InvoiceDate);
+        $("#pono").text(x.Detail.PONumber);
+        $("#eway").text(x.Detail.EwayBillNO);
+        $("#invamnt").text(x.Detail.InvoiceAmount);
+        var table = document.getElementById("tb1");
+
+        var str = "<tbody><tr><th>Sl No</th><th>Description</th><th>HSN/SAC</th> <th>Quantity</th> <th>Rate</th><th>Amount</th></tr>";
+
+        x.Detail.ListItem.forEach(function (item) {
+            str = str + '<tr>' +
+                '<td>' + item.LineNumber + '</td> <td>' + item.Description_of_Goods + '</td> <td>' + item.HSN_SAC + '</td> <td>' + item.Quantity + '</td> <td>' + item.Rate + '</td><td>' + item.per_Amount + '</td>' +
+                '</tr >';
+        });
+        table.innerHTML = str + "</tbody>";
+    }
+    function Tdate(x) {
+        try {
+            if ($("#fdate").val() != '') {
+                if (x.value < $("#fdate").val()) {
+                    alert("Invalid date range!!!");
+                    x.value = '';
+                }
+            }
+            else {
+                alert('Please enter From Date..!!!')
+                x.value = '';
+            }
+        }
+        catch (e) {
+            alert('Somthing went wrong..!!!')
+            x.value = '';
+        }
+
+    }
+    function Checkdate() {
+        if ($("#tdate").val() != '' && $("#fdate").val() != '') {
+        }
+        else {
+            if ($("#tdate").val() == '' && $("#fdate").val() == '') {
+
+            } else {
+                alert('alert');
+                event.preventDefault();
+            }
+
+        }
+    }
+</script>
+<script>
+    function Get3WayView(text, id) {
+        debugger
+        var modalbody = document.getElementById("mbdy");
+        $("#hitem").val(id);
+        var mbdytext = "<table class='table-bordered'><thead> <tr><th>PO_Number</th><th>Invoice Number</th><th>Invoice Date</th><th>Receipt Number</th><th>Receipt total</th><th>GPI GST</th><th></th></tr></thead><tbody>"
+        $.ajax({
+            type: "POST",
+            url: "/AP/Get3wayView",
+            contentType: "application/json; charset=utf-8",
+            data: '{"ponumber":"' + text + '","LineID":"' + id + '"}',
+            dataType: "json",
+            success: function (data) {
+                if (data != null) {
+
+                    data.forEach(function (item) {
+
+                        mbdytext = mbdytext + "<tr> <td>" + item.PO_Number + "</td><td>" + item.Invoice_Number + "</td><td>" + item.Invoice_Date + "</td><td>" + item.Receipt_number + "</td><td>" + item.Receipt_total + "</td><td>" + item.GPI_GST_Regn_No + "</td>" +
+                            " <td><a onclick='GetReceiptNumber(" + item.Receipt_number + ")' data-dismiss='modal' class='btn btn-default btn-sm'><span><i class='glyphicon glyphicon-edit'></i></span></a></td></tr>";
+                    });
+                    mbdytext = mbdytext + "</tbody></table>";
+                    modalbody.innerHTML = mbdytext;
+                }
+            },
+            error: function () {
+                alert("Error")
+            }
+        });
+
+
+    }
+    function GetReceiptNumber(x) {
+        if (confirm("Please make sure the receipt number is correct for application. Once applied, further change won’t be possible.")) {
+            var itemid = $("#hitem").val();
+            $("#3way_" + itemid).text(x);
+            $("#" + itemid).hide();
+            $.ajax({
+                type: "POST",
+                url: "/AP/UpdateReceiptNumber",
+                contentType: "application/json; charset=utf-8",
+                data: '{ "id": "' + itemid + '", "receipt": "' + x + '" }',
+                success: function () {
+
+                },
+                error: function () {
+                }
+            });
+
+        }
+        else {
+            event.preventDefault();
+        }
+    }
+
+    //function ExportExcel(x) {
+    //    var tabval = $("#htab").val();
+    //    debugger;
+    //    $.ajax({
+    //        type: "POST",
+    //        url: "/AP/ExportCSV",
+    //        contentType: "application/json; charset=utf-8",
+    //        data: '{ "search": "' + x + '", "tab": "' + tabval + '" }',
+    //        success: function () {
+
+    //        },
+    //        error: function () {
+    //        }
+    //    });
+    //}
+    function ConfirmApprove(msg) {
+
+        if (confirm(msg)) {
+
+        } else {
+            event.preventDefault();
+        }
+    }
+   
+</script>

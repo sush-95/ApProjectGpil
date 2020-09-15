@@ -1,0 +1,45 @@
+Z:\BackUp\15thMar2019\GPILProjects\DataAccessLayer\bin\Release\DataAccessLayer.dll.config
+Z:\BackUp\15thMar2019\GPILProjects\DataAccessLayer\bin\Release\DataAccessLayer.dll
+Z:\BackUp\15thMar2019\GPILProjects\DataAccessLayer\bin\Release\DataAccessLayer.pdb
+Z:\BackUp\15thMar2019\GPILProjects\DataAccessLayer\bin\Release\EntityFramework.dll
+Z:\BackUp\15thMar2019\GPILProjects\DataAccessLayer\bin\Release\EntityFramework.SqlServer.dll
+Z:\BackUp\15thMar2019\GPILProjects\DataAccessLayer\bin\Release\NLog.dll
+Z:\BackUp\15thMar2019\GPILProjects\DataAccessLayer\bin\Release\Oracle.ManagedDataAccess.dll
+Z:\BackUp\15thMar2019\GPILProjects\DataAccessLayer\bin\Release\EntityFramework.xml
+Z:\BackUp\15thMar2019\GPILProjects\DataAccessLayer\bin\Release\EntityFramework.SqlServer.xml
+Z:\BackUp\15thMar2019\GPILProjects\DataAccessLayer\bin\Release\NLog.xml
+Z:\BackUp\15thMar2019\GPILProjects\DataAccessLayer\obj\Release\DataAccessLayer.csprojAssemblyReference.cache
+Z:\BackUp\15thMar2019\GPILProjects\DataAccessLayer\obj\Release\DataAccessLayer.csproj.CoreCompileInputs.cache
+Z:\BackUp\15thMar2019\GPILProjects\DataAccessLayer\obj\Release\DataAccessLayer.csproj.CopyComplete
+Z:\BackUp\15thMar2019\GPILProjects\DataAccessLayer\obj\Release\DataAccessLayer.dll
+Z:\BackUp\15thMar2019\GPILProjects\DataAccessLayer\obj\Release\DataAccessLayer.pdb
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\DataAccessLayer\bin\Release\DataAccessLayer.dll.config
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\DataAccessLayer\bin\Release\DataAccessLayer.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\DataAccessLayer\bin\Release\DataAccessLayer.pdb
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\DataAccessLayer\bin\Release\EntityFramework.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\DataAccessLayer\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\DataAccessLayer\bin\Release\NLog.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\DataAccessLayer\bin\Release\Oracle.ManagedDataAccess.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\DataAccessLayer\bin\Release\EntityFramework.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\DataAccessLayer\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\DataAccessLayer\bin\Release\NLog.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\DataAccessLayer\obj\Release\DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\DataAccessLayer\obj\Release\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\DataAccessLayer\obj\Release\DataAccessLayer.csproj.CopyComplete
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\DataAccessLayer\obj\Release\DataAccessLayer.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\DataAccessLayer\obj\Release\DataAccessLayer.pdb
+D:\Shared\GPILProjects27-06-2019\GPILProjects\DataAccessLayer\bin\Release\DataAccessLayer.dll.config
+D:\Shared\GPILProjects27-06-2019\GPILProjects\DataAccessLayer\bin\Release\DataAccessLayer.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\DataAccessLayer\bin\Release\DataAccessLayer.pdb
+D:\Shared\GPILProjects27-06-2019\GPILProjects\DataAccessLayer\bin\Release\EntityFramework.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\DataAccessLayer\bin\Release\EntityFramework.SqlServer.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\DataAccessLayer\bin\Release\NLog.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\DataAccessLayer\bin\Release\Oracle.ManagedDataAccess.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\DataAccessLayer\bin\Release\EntityFramework.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\DataAccessLayer\bin\Release\EntityFramework.SqlServer.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\DataAccessLayer\bin\Release\NLog.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\DataAccessLayer\obj\Release\DataAccessLayer.csprojAssemblyReference.cache
+D:\Shared\GPILProjects27-06-2019\GPILProjects\DataAccessLayer\obj\Release\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Shared\GPILProjects27-06-2019\GPILProjects\DataAccessLayer\obj\Release\DataAccessLayer.csproj.CopyComplete
+D:\Shared\GPILProjects27-06-2019\GPILProjects\DataAccessLayer\obj\Release\DataAccessLayer.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\DataAccessLayer\obj\Release\DataAccessLayer.pdb

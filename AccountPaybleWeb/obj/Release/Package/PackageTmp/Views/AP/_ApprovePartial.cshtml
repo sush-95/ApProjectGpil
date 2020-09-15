@@ -1,0 +1,93 @@
+﻿
+<form action="/AP/ApprovePO" method="post">
+    <input type="hidden" id="hid1" name="poids" />
+    @if (ViewBag.SearchDetail != null) {
+        var smodel = (AccountPaybleWeb.Manager.ViewModelClass.SearchViewModel)ViewBag.SearchDetail;
+
+        <input type="hidden" name="search" value="@Newtonsoft.Json.JsonConvert.SerializeObject(smodel)" />
+    }
+    <input type="submit" class="btn btn-default" value="Approve" onclick="ConfirmApprove('You want to Approve this Invoice.Are you sure?')"  style="position:relative;right:-94%;background-color:#456439;color:white" />
+    <table id="example2" class="table-bordered table table-striped table-condensed tblx" style="text-align:center">
+        <thead>
+            <tr>
+                <th>@*<input type="checkbox" name="all" />*@</th>
+                <th>Invoice No</th>
+                <th>Invoice Date</th>
+                <th>PO NO</th>
+                <th>Vendor Name</th>
+                <th>Vendor Site</th>
+                <th>Invoice Amount</th>
+                <th>Remarks</th>
+                <th>Approvers</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @if (ViewBag.ApproveList != null)
+            {
+                foreach (var item in (List<AccountPaybleWeb.Models.Tbl_AP_PODetail>)ViewBag.ApproveList)
+                {
+                    if (item.InvoiceStatus.Equals(AccountPaybleWeb.Manager.Constants.PODetailInvoiceStatus.PendingForApproval))
+                    {
+                        <tr>
+                            <td>
+                                @if (!string.IsNullOrEmpty(item.InvoiceStatus) && item.InvoiceStatus.Equals(AccountPaybleWeb.Manager.Constants.PODetailInvoiceStatus.PendingForApproval))
+                                {
+                                    <input type="checkbox" onchange="StorePOIdInfo(@item.InvoiceID,this)" />
+                                }
+                                else
+                                {
+                                    <input type="checkbox" readonly="readonly" disabled="disabled" />
+                                }
+                            </td>
+                            <td>@item.InvoiceNo</td>
+
+                            @if (item.InvoiceDate != null)
+                            {
+                                <td>
+                                    @Convert.ToDateTime(item.InvoiceDate).ToString("dd-MMM-yyyy")
+                                </td>
+                            }
+                            else
+                            {
+                                <td></td>
+                            }
+
+
+                            <td>@item.PONumber</td>
+                            <td>@item.VendorName</td>
+                            <td>@item.VedorSite</td>
+                            <td>@item.InvoiceAmount</td>
+                            <td></td>
+                            <td>@item.Department</td>
+                        </tr>             
+                    }
+
+                }
+            }
+            else
+            {
+                <tr>
+                    <td>No data in the table.</td>
+                </tr>
+            }
+
+        </tbody>
+
+    </table>
+</form>
+
+<script>
+
+    function StorePOIdInfo(v, check) {
+        debugger;
+        var hid = $("#hid1").val();
+        if (check.checked) {
+            hid += v + ",";
+        }
+        else {
+            hid = hid.replace(v + ",", "");
+        }
+        $("#hid1").val(hid);
+    }
+</script>

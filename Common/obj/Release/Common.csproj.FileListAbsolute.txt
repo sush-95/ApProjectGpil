@@ -1,0 +1,204 @@
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\x64\pdfium.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\x86\pdfium.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\Common.dll.config
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\Common.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\Common.pdb
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\ActiveUp.Net.Common.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\ActiveUp.Net.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\ActiveUp.Net.Dns.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\ActiveUp.Net.Groupware.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\ActiveUp.Net.Imap4.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\ActiveUp.Net.Mail.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\ActiveUp.Net.Nntp.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\ActiveUp.Net.OpenPGP.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\ActiveUp.Net.Pop3.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\ActiveUp.Net.Smtp.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\ActiveUp.Net.WhoIs.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\BouncyCastle.Crypto.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\Common.Logging.Core.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\Common.Logging.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\DataAccessLayer.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\itext.barcodes.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\itext.font_asian.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\itext.forms.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\itext.io.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\itext.kernel.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\itext.layout.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\itext.licensekey.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\itext.pdf2data.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\itext.pdfa.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\itext.sign.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\itext.styledxmlparser.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\itext.svg.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\itextsharp.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\Microsoft.Win32.Primitives.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\Newtonsoft.Json.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\PdfiumViewer.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\System.AppContext.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\System.Console.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\System.Diagnostics.DiagnosticSource.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\System.Globalization.Calendars.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\System.IO.Compression.ZipFile.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\System.IO.FileSystem.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\System.IO.FileSystem.Primitives.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\System.Net.Http.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\System.Net.Sockets.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\System.Security.Cryptography.Algorithms.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\System.Security.Cryptography.Encoding.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\System.Security.Cryptography.Primitives.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\System.Security.Cryptography.X509Certificates.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\System.Xml.ReaderWriter.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\zxing.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\zxing.presentation.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\EntityFramework.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\NLog.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\Oracle.ManagedDataAccess.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\DataAccessLayer.pdb
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\DataAccessLayer.dll.config
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\ActiveUp.Net.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\ActiveUp.Net.Common.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\ActiveUp.Net.Dns.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\ActiveUp.Net.Imap4.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\ActiveUp.Net.Mail.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\ActiveUp.Net.Nntp.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\ActiveUp.Net.OpenPGP.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\ActiveUp.Net.Pop3.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\ActiveUp.Net.Smtp.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\ActiveUp.Net.WhoIs.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\BouncyCastle.Crypto.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\Common.Logging.pdb
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\Common.Logging.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\Common.Logging.Core.pdb
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\Common.Logging.Core.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\itext.barcodes.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\itext.font_asian.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\itext.forms.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\itext.io.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\itext.kernel.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\itext.layout.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\itext.licensekey.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\itext.pdf2data.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\itext.pdfa.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\itext.sign.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\itext.styledxmlparser.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\itext.svg.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\itextsharp.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\Newtonsoft.Json.pdb
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\Newtonsoft.Json.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\PdfiumViewer.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\System.Diagnostics.DiagnosticSource.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\zxing.pdb
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\zxing.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\zxing.presentation.pdb
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\zxing.presentation.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\EntityFramework.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\NLog.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Release\nl\PdfiumViewer.resources.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\obj\Release\Common.csprojAssemblyReference.cache
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\obj\Release\Common.csproj.CoreCompileInputs.cache
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\obj\Release\Common.csproj.CopyComplete
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\obj\Release\Common.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\obj\Release\Common.pdb
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\x64\pdfium.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\x86\pdfium.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\Common.dll.config
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\Common.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\Common.pdb
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\ActiveUp.Net.Common.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\ActiveUp.Net.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\ActiveUp.Net.Dns.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\ActiveUp.Net.Groupware.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\ActiveUp.Net.Imap4.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\ActiveUp.Net.Mail.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\ActiveUp.Net.Nntp.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\ActiveUp.Net.OpenPGP.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\ActiveUp.Net.Pop3.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\ActiveUp.Net.Smtp.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\ActiveUp.Net.WhoIs.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\BouncyCastle.Crypto.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\Common.Logging.Core.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\Common.Logging.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\DataAccessLayer.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\itext.barcodes.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\itext.font_asian.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\itext.forms.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\itext.io.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\itext.kernel.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\itext.layout.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\itext.licensekey.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\itext.pdf2data.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\itext.pdfa.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\itext.sign.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\itext.styledxmlparser.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\itext.svg.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\itextsharp.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\Microsoft.Win32.Primitives.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\Newtonsoft.Json.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\PdfiumViewer.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\System.AppContext.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\System.Console.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\System.Diagnostics.DiagnosticSource.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\System.Globalization.Calendars.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\System.IO.Compression.ZipFile.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\System.IO.FileSystem.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\System.IO.FileSystem.Primitives.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\System.Net.Http.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\System.Net.Sockets.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\System.Security.Cryptography.Algorithms.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\System.Security.Cryptography.Encoding.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\System.Security.Cryptography.Primitives.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\System.Security.Cryptography.X509Certificates.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\System.Xml.ReaderWriter.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\zxing.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\zxing.presentation.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\EntityFramework.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\NLog.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\Oracle.ManagedDataAccess.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\DataAccessLayer.pdb
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\DataAccessLayer.dll.config
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\ActiveUp.Net.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\ActiveUp.Net.Common.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\ActiveUp.Net.Dns.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\ActiveUp.Net.Imap4.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\ActiveUp.Net.Mail.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\ActiveUp.Net.Nntp.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\ActiveUp.Net.OpenPGP.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\ActiveUp.Net.Pop3.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\ActiveUp.Net.Smtp.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\ActiveUp.Net.WhoIs.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\BouncyCastle.Crypto.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\Common.Logging.pdb
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\Common.Logging.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\Common.Logging.Core.pdb
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\Common.Logging.Core.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\itext.barcodes.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\itext.font_asian.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\itext.forms.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\itext.io.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\itext.kernel.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\itext.layout.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\itext.licensekey.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\itext.pdf2data.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\itext.pdfa.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\itext.sign.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\itext.styledxmlparser.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\itext.svg.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\itextsharp.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\Newtonsoft.Json.pdb
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\Newtonsoft.Json.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\PdfiumViewer.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\System.Diagnostics.DiagnosticSource.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\zxing.pdb
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\zxing.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\zxing.presentation.pdb
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\zxing.presentation.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\EntityFramework.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\NLog.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Release\nl\PdfiumViewer.resources.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\obj\Release\Common.csprojAssemblyReference.cache
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\obj\Release\Common.csproj.CoreCompileInputs.cache
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\obj\Release\Common.csproj.CopyComplete
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\obj\Release\Common.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\obj\Release\Common.pdb

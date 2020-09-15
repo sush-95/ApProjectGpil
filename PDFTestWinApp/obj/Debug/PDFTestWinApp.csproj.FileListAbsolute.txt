@@ -1,0 +1,4 @@
+C:\Users\rpa\Desktop\Ongoing\GPILProjects\GPILProjects\PDFTestWinApp\obj\Debug\PDFTestWinApp.csprojAssemblyReference.cache
+C:\Users\rpa\Desktop\Ongoing\GPILProjects\GPILProjects\PDFTestWinApp\obj\Debug\PDFTestWinApp.Properties.Resources.resources
+C:\Users\rpa\Desktop\Ongoing\GPILProjects\GPILProjects\PDFTestWinApp\obj\Debug\PDFTestWinApp.csproj.GenerateResource.cache
+C:\Users\rpa\Desktop\Ongoing\GPILProjects\GPILProjects\PDFTestWinApp\obj\Debug\PDFTestWinApp.csproj.CoreCompileInputs.cache

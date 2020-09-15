@@ -1,0 +1,509 @@
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\x64\pdfium.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\x86\pdfium.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\Common.dll.config
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\Common.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\Common.pdb
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\ActiveUp.Net.Common.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\ActiveUp.Net.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\ActiveUp.Net.Dns.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\ActiveUp.Net.Groupware.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\ActiveUp.Net.Imap4.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\ActiveUp.Net.Mail.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\ActiveUp.Net.Nntp.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\ActiveUp.Net.OpenPGP.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\ActiveUp.Net.Pop3.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\ActiveUp.Net.Smtp.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\ActiveUp.Net.WhoIs.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\Common.Logging.Core.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\Common.Logging.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\DataAccessLayer.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\itext.barcodes.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\itext.font_asian.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\itext.forms.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\itext.io.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\itext.kernel.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\itext.layout.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\itext.licensekey.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\itext.pdf2data.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\itext.pdfa.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\itext.sign.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\itext.styledxmlparser.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\itext.svg.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\itextsharp.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\Newtonsoft.Json.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\PdfiumViewer.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\System.AppContext.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\System.Console.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\System.IO.FileSystem.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\System.Net.Http.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\System.Net.Sockets.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\zxing.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\zxing.presentation.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\EntityFramework.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\NLog.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\DataAccessLayer.pdb
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\DataAccessLayer.dll.config
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\ActiveUp.Net.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\ActiveUp.Net.Common.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\ActiveUp.Net.Dns.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\ActiveUp.Net.Imap4.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\ActiveUp.Net.Mail.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\ActiveUp.Net.Nntp.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\ActiveUp.Net.OpenPGP.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\ActiveUp.Net.Pop3.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\ActiveUp.Net.Smtp.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\ActiveUp.Net.WhoIs.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\Common.Logging.pdb
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\Common.Logging.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\Common.Logging.Core.pdb
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\Common.Logging.Core.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\itext.barcodes.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\itext.font_asian.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\itext.forms.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\itext.io.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\itext.kernel.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\itext.layout.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\itext.licensekey.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\itext.pdf2data.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\itext.pdfa.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\itext.sign.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\itext.styledxmlparser.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\itext.svg.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\itextsharp.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\Newtonsoft.Json.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\PdfiumViewer.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\zxing.pdb
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\zxing.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\zxing.presentation.pdb
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\zxing.presentation.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\EntityFramework.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\NLog.xml
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\bin\Debug\nl\PdfiumViewer.resources.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\obj\Debug\Common.csproj.CopyComplete
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\obj\Debug\Common.dll
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\obj\Debug\Common.pdb
+C:\Users\rpa\Documents\Visual Studio 2017\GPILProjects\Common\obj\Debug\Common.csprojAssemblyReference.cache
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\x64\pdfium.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\x86\pdfium.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\Common.dll.config
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\Common.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\Common.pdb
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\ActiveUp.Net.Common.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\ActiveUp.Net.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\ActiveUp.Net.Dns.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\ActiveUp.Net.Groupware.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\ActiveUp.Net.Imap4.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\ActiveUp.Net.Mail.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\ActiveUp.Net.Nntp.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\ActiveUp.Net.OpenPGP.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\ActiveUp.Net.Pop3.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\ActiveUp.Net.Smtp.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\ActiveUp.Net.WhoIs.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\BouncyCastle.Crypto.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\Common.Logging.Core.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\Common.Logging.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\DataAccessLayer.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\itext.barcodes.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\itext.font_asian.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\itext.forms.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\itext.io.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\itext.kernel.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\itext.layout.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\itext.licensekey.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\itext.pdf2data.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\itext.pdfa.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\itext.sign.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\itext.styledxmlparser.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\itext.svg.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\itextsharp.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\Microsoft.Win32.Primitives.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\Newtonsoft.Json.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\PdfiumViewer.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\System.AppContext.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\System.Console.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\System.Globalization.Calendars.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\System.IO.Compression.ZipFile.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\System.IO.FileSystem.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\System.IO.FileSystem.Primitives.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\System.Net.Http.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\System.Net.Sockets.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\System.Xml.ReaderWriter.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\zxing.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\zxing.presentation.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\EntityFramework.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\NLog.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\DataAccessLayer.pdb
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\DataAccessLayer.dll.config
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\ActiveUp.Net.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\ActiveUp.Net.Common.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\ActiveUp.Net.Dns.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\ActiveUp.Net.Imap4.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\ActiveUp.Net.Mail.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\ActiveUp.Net.Nntp.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\ActiveUp.Net.OpenPGP.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\ActiveUp.Net.Pop3.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\ActiveUp.Net.Smtp.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\ActiveUp.Net.WhoIs.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\BouncyCastle.Crypto.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\Common.Logging.pdb
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\Common.Logging.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\Common.Logging.Core.pdb
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\Common.Logging.Core.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\itext.barcodes.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\itext.font_asian.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\itext.forms.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\itext.io.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\itext.kernel.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\itext.layout.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\itext.licensekey.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\itext.pdf2data.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\itext.pdfa.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\itext.sign.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\itext.styledxmlparser.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\itext.svg.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\itextsharp.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\Newtonsoft.Json.pdb
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\Newtonsoft.Json.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\PdfiumViewer.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\zxing.pdb
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\zxing.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\zxing.presentation.pdb
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\zxing.presentation.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\EntityFramework.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\NLog.xml
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\bin\Debug\nl\PdfiumViewer.resources.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\obj\Debug\Common.csprojAssemblyReference.cache
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\obj\Debug\Common.csproj.CopyComplete
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\obj\Debug\Common.dll
+D:\Shared\GPILProjects27-06-2019\GPILProjects\Common\obj\Debug\Common.pdb
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\x64\pdfium.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\x86\pdfium.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\Common.dll.config
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\Common.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\Common.pdb
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\ActiveUp.Net.Common.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\ActiveUp.Net.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\ActiveUp.Net.Dns.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\ActiveUp.Net.Groupware.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\ActiveUp.Net.Imap4.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\ActiveUp.Net.Mail.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\ActiveUp.Net.Nntp.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\ActiveUp.Net.OpenPGP.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\ActiveUp.Net.Pop3.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\ActiveUp.Net.Smtp.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\ActiveUp.Net.WhoIs.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\BouncyCastle.Crypto.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\Common.Logging.Core.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\Common.Logging.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\DataAccessLayer.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\itext.barcodes.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\itext.font_asian.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\itext.forms.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\itext.io.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\itext.kernel.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\itext.layout.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\itext.licensekey.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\itext.pdf2data.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\itext.pdfa.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\itext.sign.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\itext.styledxmlparser.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\itext.svg.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\itextsharp.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\Microsoft.Win32.Primitives.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\Newtonsoft.Json.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\PdfiumViewer.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\System.AppContext.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\System.Console.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\System.Globalization.Calendars.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\System.IO.Compression.ZipFile.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\System.IO.FileSystem.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\System.IO.FileSystem.Primitives.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\System.Net.Http.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\System.Net.Sockets.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\System.Security.Cryptography.Algorithms.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\System.Security.Cryptography.Encoding.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\System.Security.Cryptography.Primitives.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\System.Xml.ReaderWriter.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\zxing.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\zxing.presentation.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\EntityFramework.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\NLog.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\Oracle.ManagedDataAccess.dll
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\DataAccessLayer.pdb
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\DataAccessLayer.dll.config
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\ActiveUp.Net.xml
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\ActiveUp.Net.Common.xml
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\ActiveUp.Net.Dns.xml
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\ActiveUp.Net.Imap4.xml
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\ActiveUp.Net.Mail.xml
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\ActiveUp.Net.Nntp.xml
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\ActiveUp.Net.OpenPGP.xml
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\ActiveUp.Net.Pop3.xml
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\ActiveUp.Net.Smtp.xml
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\ActiveUp.Net.WhoIs.xml
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\BouncyCastle.Crypto.xml
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\Common.Logging.pdb
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\Common.Logging.xml
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\Common.Logging.Core.pdb
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\Common.Logging.Core.xml
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\itext.barcodes.xml
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\itext.font_asian.xml
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\itext.forms.xml
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\itext.io.xml
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\itext.kernel.xml
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\itext.layout.xml
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\itext.licensekey.xml
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\itext.pdf2data.xml
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\itext.pdfa.xml
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\itext.sign.xml
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\itext.styledxmlparser.xml
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\itext.svg.xml
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\itextsharp.xml
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\Newtonsoft.Json.pdb
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\Newtonsoft.Json.xml
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\PdfiumViewer.xml
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\zxing.pdb
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\zxing.xml
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\zxing.presentation.pdb
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\zxing.presentation.xml
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\EntityFramework.xml
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\NLog.xml
+E:\GPIL\OnGoing\GPILProjects\Common\bin\Debug\nl\PdfiumViewer.resources.dll
+E:\GPIL\OnGoing\GPILProjects\Common\obj\Debug\Common.csprojAssemblyReference.cache
+E:\GPIL\OnGoing\GPILProjects\Common\obj\Debug\Common.csproj.CopyComplete
+E:\GPIL\OnGoing\GPILProjects\Common\obj\Debug\Common.dll
+E:\GPIL\OnGoing\GPILProjects\Common\obj\Debug\Common.pdb
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\x64\pdfium.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\x86\pdfium.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\Common.dll.config
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\Common.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\Common.pdb
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.Common.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.Dns.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.Groupware.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.Imap4.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.Mail.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.Nntp.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.OpenPGP.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.Pop3.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.Smtp.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.WhoIs.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\Common.Logging.Core.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\Common.Logging.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\DataAccessLayer.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\itext.barcodes.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\itext.font_asian.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\itext.forms.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\itext.io.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\itext.kernel.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\itext.layout.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\itext.licensekey.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\itext.pdf2data.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\itext.pdfa.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\itext.sign.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\itext.styledxmlparser.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\itext.svg.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\itextsharp.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\Newtonsoft.Json.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\PdfiumViewer.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\System.AppContext.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\System.Console.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\System.IO.FileSystem.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\System.Net.Http.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\System.Net.Sockets.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\zxing.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\zxing.presentation.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\EntityFramework.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\NLog.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.Common.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.Dns.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.Imap4.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.Mail.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.Nntp.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.OpenPGP.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.Pop3.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.Smtp.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.WhoIs.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\Common.Logging.pdb
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\Common.Logging.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\Common.Logging.Core.pdb
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\Common.Logging.Core.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\DataAccessLayer.pdb
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\DataAccessLayer.dll.config
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\itext.barcodes.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\itext.font_asian.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\itext.forms.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\itext.io.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\itext.kernel.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\itext.layout.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\itext.licensekey.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\itext.pdf2data.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\itext.pdfa.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\itext.sign.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\itext.styledxmlparser.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\itext.svg.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\itextsharp.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\Newtonsoft.Json.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\PdfiumViewer.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\zxing.pdb
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\zxing.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\zxing.presentation.pdb
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\zxing.presentation.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\EntityFramework.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\NLog.xml
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\bin\Debug\nl\PdfiumViewer.resources.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\obj\Debug\Common.csproj.CopyComplete
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\obj\Debug\Common.dll
+C:\Users\rpa\Desktop\OnGoing\GPILProjects\GPILProjects\Common\obj\Debug\Common.pdb
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\x64\pdfium.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\x86\pdfium.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\Common.dll.config
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\Common.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\Common.pdb
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.Common.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.Dns.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.Groupware.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.Imap4.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.Mail.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.Nntp.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.OpenPGP.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.Pop3.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.Smtp.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.WhoIs.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\Common.Logging.Core.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\Common.Logging.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\DataAccessLayer.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\itext.barcodes.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\itext.font_asian.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\itext.forms.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\itext.io.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\itext.kernel.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\itext.layout.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\itext.licensekey.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\itext.pdf2data.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\itext.pdfa.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\itext.sign.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\itext.styledxmlparser.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\itext.svg.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\itextsharp.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\Newtonsoft.Json.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\PdfiumViewer.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\System.AppContext.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\System.Console.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\System.IO.FileSystem.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\System.Net.Http.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\System.Net.Sockets.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\zxing.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\zxing.presentation.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\EntityFramework.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\NLog.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.Common.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.Dns.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.Imap4.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.Mail.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.Nntp.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.OpenPGP.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.Pop3.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.Smtp.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\ActiveUp.Net.WhoIs.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\Common.Logging.pdb
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\Common.Logging.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\Common.Logging.Core.pdb
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\Common.Logging.Core.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\DataAccessLayer.pdb
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\DataAccessLayer.dll.config
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\itext.barcodes.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\itext.font_asian.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\itext.forms.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\itext.io.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\itext.kernel.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\itext.layout.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\itext.licensekey.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\itext.pdf2data.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\itext.pdfa.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\itext.sign.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\itext.styledxmlparser.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\itext.svg.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\itextsharp.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\Newtonsoft.Json.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\PdfiumViewer.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\zxing.pdb
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\zxing.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\zxing.presentation.pdb
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\zxing.presentation.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\EntityFramework.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\NLog.xml
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\bin\Debug\nl\PdfiumViewer.resources.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\obj\Debug\Common.csproj.CopyComplete
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\obj\Debug\Common.dll
+C:\Users\rpa\Desktop\newGpilCode\GPILProjects\GPILProjects\Common\obj\Debug\Common.pdb
+C:\Users\rpa\Desktop\Ongoing\GPILProjects\GPILProjects\Common\obj\Debug\Common.csprojAssemblyReference.cache
